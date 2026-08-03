@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Foundation | Learn • Practice • Grow</title>
+    <meta name="description" content="Learn 11th and 12th State Board Computer Science concepts, questions, answers, quizzes, and career guidance.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navigationbar">
+            <div class="navigationcontainer">
+                <img class="logo" src="https://cdn.corenexis.com/f/Gs5RXqacFb1.png" alt="CS Foundation Logo">
+                <!-- Mobile Navigation -->
+                <div class="linkcontainer">
+                    <ul class="navigationlinklist">
+                        <li>
+                            <a href="#" class="linklarge active">
+                                <i class="fa-solid fa-house homeicon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="linklarge">
+                                <i class="fa-solid fa-circle-info abouticon"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-dropdown">
+                            <a href="#" class="linklarge" onclick="toggleMenu(event)">
+                                <i class="fa-solid fa-circle-chevron-down coachingicon"></i>
+                            </a>
+                            <ul class="mobile-dropdown-menu" id="mainMenu">
+                                <li>
+                                    <a href="#" onclick="toggleSubMenu(event)">
+                                        11th Class ▼
+                                    </a>
+                                    <ul class="mobile-submenu">
+                                        <li><a href="#">Chapters</a></li>
+                                        <li><a href="#">MCQ Practice</a></li>
+                                        <li><a href="#">Coding Practice</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleSubMenu(event)">
+                                        12th Class ▼
+                                    </a>
+                                    <ul class="mobile-submenu">
+                                        <li><a href="#">Chapters</a></li>
+                                        <li><a href="#">MCQ Practice</a></li>
+                                        <li><a href="#">Coding Practice</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="linklarge">
+                                <i class="fa-solid fa-file-code practiceicon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="linklarge">
+                                <i class="fa-solid fa-user signicon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Desktop Navigation -->
+                <div class="linkcontainerlarge">
+                    <ul class="navigationlinklist">
+                        <li><a href="#" class="linklarge active">Home</a></li>
+                        <li><a href="#" class="linklarge">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="linklarge">11th CS</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Chapters</a></li>
+                                <li><a href="#">MCQ Practice</a></li>
+                                <li><a href="#">Coding Practice</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="linklarge">12th CS</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Chapters</a></li>
+                                <li><a href="#">MCQ Practice</a></li>
+                                <li><a href="#">Coding Practice</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="linklarge">
+                                Practice Quiz
+                            </a>
+                        </li>
+                        <li>
+                            <button class="signinbutton">
+                                <i class="fa-solid fa-user"></i>
+                                Sign In
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero-section">
+            <div class="hero-content">
+                <p class="hero-tag">
+                    🚀 Learn • Practice • Grow
+                </p>
+                <h1 class="hero-heading">
+                    Master Computer Science
+                    <span>From Basics to Career Success</span>
+                </h1>
+                <p class="hero-description">
+                    Learn Computer Science concepts, practice MCQs,
+                    solve programming problems, prepare for exams,
+                    and build a strong foundation for your future career.
+                </p>
+                <div class="hero-buttons">
+                    <button class="primary-btn">
+                        Start Learning
+                    </button>
+                    <button class="secondary-btn">
+                        Explore Topics
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://cdn.corenexis.com/f/p2y1jOR2eGx.png" alt="Coding Student">
+            </div>
+        </section>
+        <div class="chooseuscontainer">
+            <p class="chooseuspara">WHY CHOOSE US?</p>
+            <h1 class="chooseheading">Everything you need to succeed</h1>
+            <div class="cards-container">
+                <div class="course-card">
+                    <div class="courseinsidecontainer">
+                        <div><img src="https://cdn.corenexis.com/f/uxl4mgVMclW.png" width="90px" /></div>
+                        <div class="course">
+                            <h1 class="courseheading">Concepts Learning</h1>
+                            <p class="coursepara">Understand computer science concepts with simple and easy explanations.</p>
+                            <a class="courselink">Learn more -></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="courseinsidecontainer">
+                        <div><img src="https://cdn.corenexis.com/f/77830pjlK9K.png" width="90px" /></div>
+                        <div class="course">
+                            <h1 class="courseheading">Questions and Answers</h1>
+                            <p class="coursepara">Chapter-wise important Questions and Answers for better exam preparation.</p>
+                            <a class="courselink">Explore Q&A -></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="courseinsidecontainer">
+                        <div><img src="https://cdn.corenexis.com/f/yTqEJM5pQxb.png" width="90px" /></div>
+                        <div class="course">
+                            <h1 class="courseheading">Career Foundation</h1>
+                            <p class="coursepara">Build strong fundamentals that helps to higher studies and future careers.</p>
+                            <a class="courselink">View Roadmap -></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="exploretopicscontainer">
+            <p class="chooseuspara">EXPLORE SUBJECTS</p>
+            <h1 class="chooseheading">Popular Computer Science Topics</h1>
+            <div class="cards-container">
+                <div class="course-cards">
+                    <div class="courseinsidescontainer">
+                        <div><img src="https://cdn.corenexis.com/f/BIlat3Y5lm9.png" width="90px" /></div>
+                        <div>
+                            <h1 class="courseheadings">Computer fundamentals</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-cards">
+                    <div class="courseinsidescontainer">
+                        <div><img src="https://cdn.corenexis.com/f/l0LU7PSIXm5.png" width="90px" /></div>
+                        <div>
+                            <h1 class="courseheadings">Programming concepts</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-cards">
+                    <div class="courseinsidescontainer">
+                        <div><img src="https://cdn.corenexis.com/f/iDnAGAst0Gi.png" width="90px" /></div>
+                        <div>
+                            <h1 class="courseheadings">Database Management</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-cards">
+                    <div class="courseinsidescontainer">
+                        <div><img src="https://cdn.corenexis.com/f/8ZqQcXRGhmI.png" width="90px" /></div>
+                        <div>
+                            <h1 class="courseheadings">Internet and Networking</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-cards">
+                    <div class="courseinsidescontainer">
+                        <div><img src="https://cdn.corenexis.com/f/Pi2VQcZFibc.png" width="90px" /></div>
+                        <div>
+                            <h1 class="courseheadings">Python Basics</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-cards">
+                    <div class="courseinsidescontainer">
+                        <div><img src="https://cdn.corenexis.com/f/HrKxyN4dj6b.png" width="90px" /></div>
+                        <div>
+                            <h1 class="courseheadings">PHP Basics</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="roadmap-section">
+
+            <p class="roadmap-label">LEARNING ROADMAP</p>
+
+            <h2 class="roadmap-heading">
+                From School to Software Developer
+            </h2>
+
+            <div class="roadmap-container">
+
+                <div class="roadmap-card">
+                    <div class="icon-circle school">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+
+                    <h3>11th Basics</h3>
+
+                    <p>
+                        Build strong fundamentals
+                        in Computer Science.
+                    </p>
+                </div>
+
+                <div class="arrow">→</div>
+
+                <div class="roadmap-card">
+                    <div class="icon-circle cs">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                    <h3>12th Computer Science</h3>
+
+                    <p>
+                        Deepen your knowledge
+                        with advanced concepts.
+                    </p>
+                </div>
+
+                <div class="arrow">→</div>
+
+                <div class="roadmap-card">
+                    <div class="icon-circle degree">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <h3>Degree Path</h3>
+
+                    <p>
+                        B.Sc / BCA / BE in
+                        Computer Applications.
+                    </p>
+                </div>
+
+                <div class="arrow">→</div>
+
+                <div class="roadmap-card">
+                    <div class="icon-circle skills">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <h3>Skills & Projects</h3>
+
+                    <p>
+                        Practice, build projects
+                        and improve problem solving.
+                    </p>
+                </div>
+
+                <div class="arrow">→</div>
+
+                <div class="roadmap-card">
+                    <div class="icon-circle career">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+
+                    <h3>Career Success</h3>
+
+                    <p>
+                        Become a developer,
+                        engineer or tech leader.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="footer-section">
+
+            <div class="footer-container">
+
+                <!-- Logo Section -->
+
+                <div class="footer-column">
+
+                    <div class="footer-logo-container">
+
+                        <div class="footer-logo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h2 class="footer-title">
+                            CS Foundation
+                        </h2>
+
+                    </div>
+
+                    <p class="footer-description">
+                        Empowering students with quality computer science education and helping them build a successful future.
+                    </p>
+
+                    <div class="social-icons">
+
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+                    </div>
+
+                </div>
+
+                <!-- Quick Links -->
+
+                <div class="footer-column">
+
+                    <h3 class="footer-heading">
+                        Quick Links
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">11th Computer Science</a></li>
+                        <li><a href="#">12th Computer Science</a></li>
+                        <li><a href="#">Practice Quiz</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Resources -->
+
+                <div class="footer-column">
+
+                    <h3 class="footer-heading">
+                        Resources
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li><a href="#">Study Materials</a></li>
+                        <li><a href="#">Important Questions</a></li>
+                        <li><a href="#">Chapter-wise Q&A</a></li>
+                        <li><a href="#">Notes & PDFs</a></li>
+                        <li><a href="#">MCQ Practice</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- Contact -->
+
+                <div class="footer-column">
+
+                    <h3 class="footer-heading">
+                        Contact Us
+                    </h3>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>support@csfoundation.in</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Tamil Nadu, India</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr class="footer-line">
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 CS Foundation. All Rights Reserved.
+                </p>
+
+                <div class="footer-policy">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span>|</span>
+
+                    <a href="#">Terms & Conditions</a>
+
+                    <span>|</span>
+
+                    <a href="#">Disclaimer</a>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+    <script>
+        function toggleMenu(event) {
+            event.preventDefault();
+
+            const menu = document.getElementById("mainMenu");
+
+            menu.style.display =
+                menu.style.display === "block" ?
+                "none" :
+                "block";
+        }
+
+        function toggleSubMenu(event) {
+            event.preventDefault();
+
+            const submenu =
+                event.currentTarget.nextElementSibling;
+
+            submenu.style.display =
+                submenu.style.display === "block" ?
+                "none" :
+                "block";
+        }
+    </script>
+</body>
+
+</html>
