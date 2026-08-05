@@ -122,7 +122,7 @@ for (let chapter of chaptersEleven) {
         let linksubElement = document.createElement("a");
         linksubElement.classList.add("sublistlink");
 
-        linksubElement.href = `chapter.html?chapter=${chapter.id}&type=${item.key}`; // replace later
+        linksubElement.href = `chapter.html?class=11&chapter=${chapter.id}&type=${item.key}`; // replace later
         linksubElement.textContent = item.text;
 
         listsubElement.appendChild(linksubElement);
