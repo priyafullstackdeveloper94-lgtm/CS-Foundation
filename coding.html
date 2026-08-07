@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Foundation | Learn • Practice • Grow</title>
+    <meta name="description" content="Learn 11th and 12th State Board Computer Science concepts, questions, answers, quizzes, and career guidance.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="chapter.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <nav class="navigationbar">
+            <div class="navigationcontainer">
+                <img class="logo" src="https://cdn.corenexis.com/f/Gs5RXqacFb1.png" alt="CS Foundation Logo">
+                <!-- Mobile Navigation -->
+                <div class="linkcontainer">
+                    <ul class="navigationlinklist">
+                        <li>
+                            <a href="#" class="linklarge active">
+                                <i class="fa-solid fa-house homeicon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="linklarge">
+                                <i class="fa-solid fa-circle-info abouticon"></i>
+                            </a>
+                        </li>
+                        <li class="mobile-dropdown">
+                            <a href="#" class="linklarge" onclick="toggleMenu(event)">
+                                <i class="fa-solid fa-circle-chevron-down coachingicon"></i>
+                            </a>
+                            <ul class="mobile-dropdown-menu" id="mainMenu">
+                                <li>
+                                    <a href="#" onclick="toggleSubMenu(event)">
+                                        11th Class ▼
+                                    </a>
+                                    <ul class="mobile-submenu">
+                                        <li><a href="#">Chapters</a></li>
+                                        <li><a href="#">MCQ Practice</a></li>
+                                        <li><a href="#">Coding Practice</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="toggleSubMenu(event)">
+                                        12th Class ▼
+                                    </a>
+                                    <ul class="mobile-submenu">
+                                        <li><a href="#">Chapters</a></li>
+                                        <li><a href="#">MCQ Practice</a></li>
+                                        <li><a href="#">Coding Practice</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="linklarge">
+                                <i class="fa-solid fa-file-code practiceicon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="linklarge">
+                                <i class="fa-solid fa-user signicon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Desktop Navigation -->
+                <div class="linkcontainerlarge">
+                    <ul class="navigationlinklist">
+                        <li><a href="#" class="linklarge active">Home</a></li>
+                        <li><a href="#" class="linklarge">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="linklarge">11th CS</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Chapters</a></li>
+                                <li><a href="#">MCQ Practice</a></li>
+                                <li><a href="#">Coding Practice</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="linklarge">12th CS</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Chapters</a></li>
+                                <li><a href="#">MCQ Practice</a></li>
+                                <li><a href="#">Coding Practice</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="linklarge">
+                                Practice Quiz
+                            </a>
+                        </li>
+                        <li>
+                            <button class="signinbutton">
+                                <i class="fa-solid fa-user"></i>
+                                Sign In
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="coding-section">
+
+
+            <div class="coding-container">
+
+                <h1 id="chapterHeading"></h1>
+
+                <p id="chapterKey"></p>
+
+
+                <div id="codingQuestions">
+
+                </div>
+
+            </div>
+
+        </section>
+        <div>
+            <footer class="footer-section">
+                <div class="footer-container">
+                    <!-- Logo Section -->
+                    <div class="footer-column">
+                        <div class="footer-logo-container">
+                            <div class="footer-logo">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <h2 class="footer-title">
+                                CS Foundation
+                            </h2>
+                        </div>
+                        <p class="footer-description">
+                            Empowering students with quality computer science education and helping them build a successful future.
+                        </p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <!-- Quick Links -->
+                    <div class="footer-column">
+                        <h3 class="footer-heading">
+                            Quick Links
+                        </h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">11th Computer Science</a></li>
+                            <li><a href="#">12th Computer Science</a></li>
+                            <li><a href="#">Practice Quiz</a></li>
+                        </ul>
+                    </div>
+                    <!-- Resources -->
+                    <div class="footer-column">
+                        <h3 class="footer-heading">
+                            Resources
+                        </h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Study Materials</a></li>
+                            <li><a href="#">Important Questions</a></li>
+                            <li><a href="#">Chapter-wise Q&A</a></li>
+                            <li><a href="#">Notes & PDFs</a></li>
+                            <li><a href="#">MCQ Practice</a></li>
+                        </ul>
+                    </div>
+                    <!-- Contact -->
+                    <div class="footer-column">
+                        <h3 class="footer-heading">
+                            Contact Us
+                        </h3>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>support@csfoundation.in</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Tamil Nadu, India</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="footer-line">
+                <div class="footer-bottom">
+                    <p>
+                        © 2026 CS Foundation. All Rights Reserved.
+                    </p>
+                    <div class="footer-policy">
+                        <a href="#">Privacy Policy</a>
+                        <span>|</span>
+                        <a href="#">Terms & Conditions</a>
+                        <span>|</span>
+                        <a href="#">Disclaimer</a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+    <script>
+        function toggleMenu(event) {
+            event.preventDefault();
+
+            const menu = document.getElementById("mainMenu");
+
+            menu.style.display =
+                menu.style.display === "block" ?
+                "none" :
+                "block";
+        }
+
+        function toggleSubMenu(event) {
+            event.preventDefault();
+
+            const submenu =
+                event.currentTarget.nextElementSibling;
+
+            submenu.style.display =
+                submenu.style.display === "block" ?
+                "none" :
+                "block";
+        }
+    </script>
+</body>
+
+</html>
