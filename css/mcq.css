@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg,
+            #0f172a,
+            #1e293b,
+            #334155);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mcq-container {
+    width: 100%;
+    max-width: 900px;
+}
+
+.mcq-header {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.mcq-title {
+    color: #2563eb;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.mcq-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.question-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.question {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #1e293b;
+    margin-bottom: 25px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option-btn {
+    width: 100%;
+    text-align: left;
+    padding: 15px 18px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.option-btn:hover {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+.correct {
+    background: #dcfce7;
+    border-color: #16a34a;
+    color: #166534;
+}
+
+.wrong {
+    background: #fee2e2;
+    border-color: #dc2626;
+    color: #991b1b;
+}
+
+.result-message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-btn {
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    background: #1d4ed8;
+}
+
+.action-btn:disabled {
+    background: #94a3b8;
+    cursor: not-allowed;
+}
+
+@media(max-width:768px) {
+
+    .question {
+        font-size: 20px;
+    }
+
+    .mcq-title {
+        font-size: 26px;
+    }
+
+}
