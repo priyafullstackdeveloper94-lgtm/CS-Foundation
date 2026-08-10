@@ -1077,7 +1077,7 @@
 },
 {
 "question": "What are comments? Explain their types.",
-"answer": "Comments are statements that improve program readability and are ignored during execution. Python supports single-line comments using # and multi-line comments using triple quotes (''' or """)."
+"answer": "Comments are statements that improve program readability and are ignored during execution. Python supports single-line comments using # and multi-line comments using triple quotes (' or ')."
 },
 {
 "question": "Explain arithmetic operators with examples.",
@@ -1111,7 +1111,7 @@
 },
 {
 "question": "Explain the input() and print() functions with examples.",
-"answer": "The input() function accepts data from the user during program execution. The print() function displays output on the screen. Example: name = input('Enter your name: ') print('Welcome', name). Here, input() receives the user's name and print() displays a greeting message."
+"answer": "The input() function accepts data from the user during program execution. The print() function displays output on the screen. Example: name = input(Enter your name: ) print(Welcome, name). Here, input() receives the user's name and print() displays a greeting message."
 },
 {
 "question": "Explain the various operators available in Python.",
@@ -1365,7 +1365,7 @@
 },
 {
 "question": "Explain the if statement with an example.",
-"answer": "The if statement executes a block of code only when a specified condition is true. Example: if mark >= 50: print('Pass'). The message 'Pass' is displayed only if the condition is true."
+"answer": "The if statement executes a block of code only when a specified condition is true. Example: if mark >= 50: print(Pass). The message Pass is displayed only if the condition is true."
 },
 {
 "question": "Differentiate between if and if-else statements.",
@@ -1407,11 +1407,11 @@
 },
 {
 "question": "Explain the if, if-else, and nested if statements with examples.",
-"answer": "The if statement executes a block only when a condition is true. The if-else statement provides two execution paths depending on whether the condition is true or false. A nested if statement contains one if statement inside another. Example: if mark >= 50: print('Pass') else: print('Fail'). Nested if statements are useful for checking multiple conditions."
+"answer": "The if statement executes a block only when a condition is true. The if-else statement provides two execution paths depending on whether the condition is true or false. A nested if statement contains one if statement inside another. Example: if mark >= 50: print(Pass) else: print(Fail). Nested if statements are useful for checking multiple conditions."
 },
 {
 "question": "Describe the elif ladder with suitable examples.",
-"answer": "The elif ladder is used when multiple conditions need to be checked. Python evaluates each condition from top to bottom. When a condition becomes true, the corresponding block is executed and the remaining conditions are skipped. Example: if mark >= 90: print('Grade A') elif mark >= 75: print('Grade B') elif mark >= 50: print('Grade C') else: print('Fail')."
+"answer": "The elif ladder is used when multiple conditions need to be checked. Python evaluates each condition from top to bottom. When a condition becomes true, the corresponding block is executed and the remaining conditions are skipped. Example: if mark >= 90: print(Grade A) elif mark >= 75: print(Grade B) elif mark >= 50: print(Grade C) else: print(Fail)."
 },
 {
 "question": "Explain the while loop and for loop in Python.",
@@ -1611,7 +1611,7 @@
 },
 {
 "question": "Which keyword is used to define a function in Python?",
-"answer": "The 'def' keyword is used to define a function in Python."
+"answer": "The def keyword is used to define a function in Python."
 },
 {
 "question": "What is a function call?",
@@ -1677,7 +1677,7 @@
 },
 {
 "question": "Explain keyword arguments with an example.",
-"answer": "Keyword arguments are passed using parameter names. This allows arguments to be supplied in any order. Example: display(name='Ravi', age=18). Here, the values are assigned using parameter names."
+"answer": "Keyword arguments are passed using parameter names. This allows arguments to be supplied in any order. Example: display(name=Ravi, age=18). Here, the values are assigned using parameter names."
 },
 {
 "question": "What are default arguments?",
@@ -1849,7 +1849,7 @@
 },
 {
 "heading": "String Creation",
-"content": "Strings can be created using single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """). Triple quotes are useful for multi-line strings."
+"content": "Strings can be created using single quotes (' '), double quotes ('' ''), or triple quotes ( or '' '' ''  '' '' ''). Triple quotes are useful for multi-line strings."
 },
 {
 "heading": "Characteristics of Strings",
@@ -1869,19 +1869,19 @@
 },
 {
 "heading": "String Concatenation",
-"content": "Concatenation is the process of joining two or more strings using the '+' operator. It creates a new combined string."
+"content": "Concatenation is the process of joining two or more strings using the + operator. It creates a new combined string."
 },
 {
 "heading": "String Repetition",
-"content": "The '*' operator is used to repeat a string multiple times. It creates a new string containing repeated copies of the original string."
+"content": "The * operator is used to repeat a string multiple times. It creates a new string containing repeated copies of the original string."
 },
 {
 "heading": "String Operators",
-"content": "Python provides operators such as '+', '*', 'in', and 'not in' for performing various operations on strings."
+"content": "Python provides operators such as +, *, in, and not in for performing various operations on strings."
 },
 {
 "heading": "Membership Operators",
-"content": "The 'in' and 'not in' operators are used to check whether a character or substring exists within a string."
+"content": "The in and not in operators are used to check whether a character or substring exists within a string."
 },
 {
 "heading": "String Functions",
@@ -1915,7 +1915,7 @@
 },
 {
 "question": "How can a string be created in Python?",
-"answer": "A string can be created using single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """)."
+"answer": "A string can be created using single quotes (' ' ), double quotes ('' ''), or triple quotes (or '''''' '''''')."
 },
 {
 "question": "What is string indexing?",
@@ -1973,11 +1973,11 @@
     "threeMark": [
 {
 "question": "What is a string? How is it created in Python?",
-"answer": "A string is a sequence of characters enclosed within quotes. In Python, strings can be created using single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """). Triple quotes are commonly used for multi-line strings."
+"answer": "A string is a sequence of characters enclosed within quotes. In Python, strings can be created using single quotes (' '), double quotes ('' ''), or triple quotes ( or '' '' ''  '' '' ''). Triple quotes are commonly used for multi-line strings."
 },
 {
 "question": "Explain string indexing with examples.",
-"answer": "String indexing is used to access individual characters in a string. Python supports both positive and negative indexing. Positive indexing starts from 0, while negative indexing starts from -1. For example, in the string 'PYTHON', s[0] returns 'P' and s[-1] returns 'N'."
+"answer": "String indexing is used to access individual characters in a string. Python supports both positive and negative indexing. Positive indexing starts from 0, while negative indexing starts from -1. For example, in the string PYTHON, s[0] returns P and s[-1] returns N."
 },
 {
 "question": "What is string slicing? Explain its syntax.",
@@ -1985,11 +1985,11 @@
 },
 {
 "question": "Explain string concatenation and repetition.",
-"answer": "String concatenation combines two or more strings using the '+' operator. String repetition repeats a string a specified number of times using the '*' operator. Example: 'Hi' + 'Python' results in 'HiPython', and 'Hi' * 3 results in 'HiHiHi'."
+"answer": "String concatenation combines two or more strings using the + operator. String repetition repeats a string a specified number of times using the * operator. Example: 'Hi' + 'Python' results in HiPython, and Hi * 3 results in HiHiHi."
 },
 {
 "question": "What are membership operators in strings?",
-"answer": "Membership operators are used to check whether a character or substring exists in a string. The 'in' operator returns True if the value exists, while 'not in' returns True if the value does not exist."
+"answer": "Membership operators are used to check whether a character or substring exists in a string. The in operator returns True if the value exists, while not in returns True if the value does not exist."
 },
 {
 "question": "Explain the len(), min(), and max() functions.",
@@ -2005,7 +2005,7 @@
 },
 {
 "question": "Explain the replace() method with its use.",
-"answer": "The replace() method is used to substitute one substring with another. It creates a new string without modifying the original string. Example: 'Python'.replace('Python', 'Java') returns 'Java'."
+"answer": "The replace() method is used to substitute one substring with another. It creates a new string without modifying the original string. Example: Python.replace(Python, Java) returns Java."
 },
 {
 "question": "What are split() and join() methods?",
@@ -2019,11 +2019,11 @@
 },
 {
 "question": "Explain string indexing and string slicing with examples.",
-"answer": "String indexing is used to access individual characters in a string using their position numbers. Positive indexing starts from 0, while negative indexing starts from -1. String slicing extracts a portion of a string using the syntax string[start:end:step]. For example, if s = 'PYTHON', s[0] returns 'P', s[-1] returns 'N', and s[1:4] returns 'YTH'."
+"answer": "String indexing is used to access individual characters in a string using their position numbers. Positive indexing starts from 0, while negative indexing starts from -1. String slicing extracts a portion of a string using the syntax string[start:end:step]. For example, if s = PYTHON, s[0] returns P, s[-1] returns N, and s[1:4] returns YTH."
 },
 {
 "question": "Describe the various string operations in Python.",
-"answer": "Python supports several string operations. Concatenation combines strings using the '+' operator. Repetition repeats a string using the '*' operator. Membership operators such as 'in' and 'not in' check for the existence of characters or substrings. Comparison operators can also be used to compare strings based on their ASCII values."
+"answer": "Python supports several string operations. Concatenation combines strings using the + operator. Repetition repeats a string using the * operator. Membership operators such as in and not in check for the existence of characters or substrings. Comparison operators can also be used to compare strings based on their ASCII values."
 },
 {
 "question": "Explain the commonly used string functions and methods.",
@@ -2543,7 +2543,7 @@
 },
 {
 "question": "Which keyword is used to create a class in Python?",
-"answer": "The 'class' keyword is used to create a class in Python."
+"answer": "The class keyword is used to create a class in Python."
 },
 {
 "question": "How is an object created in Python?",
@@ -2575,7 +2575,7 @@
 },
 {
 "question": "What is data hiding?",
-"answer": "Data hiding is the process of restricting direct access to an object's internal data."
+"answer": "Data hiding is the process of restricting direct access to an objects internal data."
 },
 {
 "question": "What is reusability in OOP?",
@@ -2631,7 +2631,7 @@
 },
 {
 "question": "Explain the concepts of class and object with examples.",
-"answer": "A class is a blueprint or template used to create objects. It defines the attributes and methods that objects will possess. An object is an instance of a class that represents a real-world entity. For example, 'Student' can be a class, while 'Priya' and 'Kumar' are objects created from that class. A class defines the structure, whereas objects contain actual data."
+"answer": "A class is a blueprint or template used to create objects. It defines the attributes and methods that objects will possess. An object is an instance of a class that represents a real-world entity. For example, Student can be a class, while Priya and Kumar are objects created from that class. A class defines the structure, whereas objects contain actual data."
 },
 {
 "question": "Describe attributes and methods in a class.",
@@ -3373,7 +3373,7 @@
 "answer": "MIN()"
 },
 {
-"question": "Which operator represents 'not equal to' in SQL?",
+"question": "Which operator represents not equal to in SQL?",
 "options": ["=", "==", "<>", "!="],
 "answer": "<>"
 },
@@ -3409,7 +3409,7 @@
 },
 {
 "heading": "Importing the CSV Module",
-"content": "Before working with CSV files, the csv module must be imported using the statement 'import csv'. This module provides functions and classes for CSV file operations."
+"content": "Before working with CSV files, the csv module must be imported using the statement import csv. This module provides functions and classes for CSV file operations."
 },
 {
 "heading": "Reading CSV Files",
@@ -3441,7 +3441,7 @@
 },
 {
 "heading": "File Handling with CSV",
-"content": "CSV operations use file handling functions such as open() to access files. Files can be opened in read mode ('r') or write mode ('w') depending on the required operation."
+"content": "CSV operations use file handling functions such as open() to access files. Files can be opened in read mode (r) or write mode (w) depending on the required operation."
 },
 {
 "heading": "Applications of CSV Files",
@@ -3475,7 +3475,7 @@
 },
 {
 "question": "How do you import the CSV module?",
-"answer": "The CSV module is imported using the statement 'import csv'."
+"answer": "The CSV module is imported using the statement import csv."
 },
 {
 "question": "What is csv.reader()?",
@@ -3549,7 +3549,7 @@
 },
 {
 "question": "Explain file handling in CSV operations.",
-"answer": "CSV operations use file handling functions such as open() to access files. Files can be opened in read mode ('r') for reading data or write mode ('w') for writing data."
+"answer": "CSV operations use file handling functions such as open() to access files. Files can be opened in read mode (r) for reading data or write mode (w) for writing data."
 },
 {
 "question": "Mention the applications of CSV files.",
@@ -3583,7 +3583,7 @@
 },
 {
 "question": "Explain file handling operations used in CSV files.",
-"answer": "CSV files use Python file handling functions to perform operations. The open() function is used to access files. Files can be opened in read mode ('r') for reading data or write mode ('w') for writing data. After processing, files should be properly closed to free system resources and maintain data integrity."
+"answer": "CSV files use Python file handling functions to perform operations. The open() function is used to access files. Files can be opened in read mode (r) for reading data or write mode (w) for writing data. After processing, files should be properly closed to free system resources and maintain data integrity."
 },
 {
 "question": "Write a detailed note on Python and CSV Files.",
@@ -4257,7 +4257,7 @@
 "answer": "="
 },
 {
-"question": "Which operator means 'not equal to'?",
+"question": "Which operator means not equal to?",
 "options": ["!=", "<>", "><", "=="],
 "answer": "<>"
 },
@@ -4337,7 +4337,7 @@
 },
 {
 "heading": "Importing PyPlot",
-"content": "The PyPlot module is commonly imported using the statement 'import matplotlib.pyplot as plt'. This allows access to plotting functions through the alias 'plt'."
+"content": "The PyPlot module is commonly imported using the statement import matplotlib.pyplot as plt. This allows access to plotting functions through the alias plt."
 },
 {
 "heading": "Line Graph",
@@ -4399,7 +4399,7 @@
 },
 {
 "question": "How is the PyPlot module imported?",
-"answer": "The PyPlot module is imported using 'import matplotlib.pyplot as plt'."
+"answer": "The PyPlot module is imported using import matplotlib.pyplot as plt."
 },
 {
 "question": "What is a line graph?",
