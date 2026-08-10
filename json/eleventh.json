@@ -1,0 +1,1696 @@
+{
+  "introduction-to-computers": {
+    "summary": [
+      {
+        "heading": "Introduction to Computers",
+        "content": "A computer is an electronic device that accepts data, processes it according to instructions, stores it, and produces meaningful information."
+      },
+      {
+        "heading": "Generations of Computers",
+        "content": "Computers have evolved through six generations. Each generation introduced new technologies such as vacuum tubes, transistors, integrated circuits, microprocessors, and artificial intelligence."
+      },
+      {
+        "heading": "First Generation Computers",
+        "content": "First generation computers used vacuum tubes. They were large in size, consumed more power, generated more heat, and used machine language."
+      },
+      {
+        "heading": "ENIAC",
+        "content": "ENIAC (Electronic Numerical Integrator and Calculator) was the first fully functional digital computer developed by J. Presper Eckert and John Mauchly."
+      },
+      {
+        "heading": "Second Generation Computers",
+        "content": "Second generation computers used transistors. They were smaller, generated less heat, consumed less power, and supported assembly language."
+      },
+      {
+        "heading": "Third Generation Computers",
+        "content": "Third generation computers used Integrated Circuits (ICs). They were faster, more reliable, and supported high-level programming languages."
+      },
+      {
+        "heading": "Fourth Generation Computers",
+        "content": "Fourth generation computers used microprocessors and VLSI technology. Personal computers and portable computers became popular during this generation."
+      },
+      {
+        "heading": "Fifth Generation Computers",
+        "content": "Fifth generation computers introduced artificial intelligence, expert systems, parallel processing, and image recognition technologies."
+      },
+      {
+        "heading": "Sixth Generation Computing",
+        "content": "Sixth generation computers focus on artificial neural networks, robotics, natural language processing, distributed computing, and intelligent systems."
+      },
+      {
+        "heading": "Applications of Artificial Intelligence",
+        "content": "Artificial Intelligence enables computers to understand human language, recognize patterns, make decisions, and solve complex problems."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is a computer?",
+        "answer": "A computer is an electronic device that accepts data, processes it, stores it, and produces information."
+      },
+      {
+        "question": "What is ENIAC?",
+        "answer": "ENIAC is the first fully functional digital computer developed by J. Presper Eckert and John Mauchly."
+      },
+      {
+        "question": "What technology was used in first generation computers?",
+        "answer": "Vacuum tubes were used in first generation computers."
+      },
+      {
+        "question": "Which technology was used in second generation computers?",
+        "answer": "Transistors were used in second generation computers."
+      },
+      {
+        "question": "What is an Integrated Circuit?",
+        "answer": "An Integrated Circuit (IC) is a small electronic circuit containing many components on a single chip."
+      },
+      {
+        "question": "What is a microprocessor?",
+        "answer": "A microprocessor is a programmable electronic device that performs processing tasks in a computer."
+      },
+      {
+        "question": "What is Artificial Intelligence?",
+        "answer": "Artificial Intelligence is the ability of a computer system to perform tasks that normally require human intelligence."
+      },
+      {
+        "question": "What is Natural Language Processing?",
+        "answer": "Natural Language Processing enables computers to understand and process human language."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Write any three characteristics of first generation computers.",
+        "answer": "First generation computers were large in size, consumed more power, and generated excessive heat."
+      },
+      {
+        "question": "What are the advantages of second generation computers?",
+        "answer": "They were smaller in size, generated less heat, consumed less power, and supported assembly language."
+      },
+      {
+        "question": "Explain third generation computers.",
+        "answer": "Third generation computers used Integrated Circuits, were faster and more reliable, and supported high-level languages."
+      },
+      {
+        "question": "What are the features of fourth generation computers?",
+        "answer": "Fourth generation computers used microprocessors, VLSI technology, and introduced personal and portable computers."
+      },
+      {
+        "question": "Explain sixth generation computing.",
+        "answer": "Sixth generation computing focuses on AI, robotics, neural networks, NLP, and distributed computing."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain the generations of computers.",
+        "answer": "The evolution of computers is divided into six generations. First generation used vacuum tubes. Second generation used transistors. Third generation used integrated circuits. Fourth generation used microprocessors and VLSI technology. Fifth generation introduced AI and expert systems. Sixth generation focuses on intelligent systems, robotics, neural networks, and natural language processing."
+      },
+      {
+        "question": "Explain the features of fifth generation computers.",
+        "answer": "Fifth generation computers use ULSI technology, artificial intelligence, expert systems, image recognition, logical reasoning, and parallel processing to solve complex problems."
+      },
+      {
+        "question": "Describe ENIAC.",
+        "answer": "ENIAC was the first fully functional digital computer. It was developed by J. Presper Eckert and John Mauchly. It used thousands of vacuum tubes, occupied a large area, and consumed a significant amount of power."
+      },
+      {
+        "question": "Explain the applications of Artificial Intelligence.",
+        "answer": "Artificial Intelligence is used in expert systems, robotics, image recognition, speech recognition, natural language processing, and decision-making systems."
+      },
+      {
+        "question": "Explain sixth generation technologies.",
+        "answer": "Sixth generation technologies include neural networks, distributed computing, robotics, natural language processing, voice recognition systems, and intelligent computing systems."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Which generation used vacuum tubes?",
+        "answer": "First Generation"
+      },
+      {
+        "question": "ENIAC belongs to which generation?",
+        "answer": "First Generation"
+      },
+      {
+        "question": "Which generation used transistors?",
+        "answer": "Second Generation"
+      },
+      {
+        "question": "Which generation introduced Integrated Circuits?",
+        "answer": "Third Generation"
+      },
+      {
+        "question": "Which generation introduced microprocessors?",
+        "answer": "Fourth Generation"
+      },
+      {
+        "question": "Artificial Intelligence is mainly associated with which generation?",
+        "answer": "Fifth Generation"
+      },
+      {
+        "question": "What does NLP stand for?",
+        "answer": "Natural Language Processing"
+      },
+      {
+        "question": "Who developed ENIAC?",
+        "answer": "J. Presper Eckert and John Mauchly"
+      },
+      {
+        "question": "Which generation focuses on robotics and neural networks?",
+        "answer": "Sixth Generation"
+      },
+      {
+        "question": "Which computer was the first fully functional digital computer?",
+        "answer": "ENIAC"
+      }
+    ]
+  },
+
+  "number-systems": {
+    "summary": [
+      {
+        "heading": "Number Systems",
+        "content": "A number system is a method of representing numbers using a set of symbols. Computers use different number systems for processing and storage."
+      },
+      {
+        "heading": "Decimal Number System",
+        "content": "The decimal number system uses ten digits from 0 to 9 and has a base of 10. It is the most commonly used number system."
+      },
+      {
+        "heading": "Binary Number System",
+        "content": "The binary number system uses only two digits, 0 and 1, and has a base of 2. It is the fundamental number system used in computers."
+      },
+      {
+        "heading": "Octal Number System",
+        "content": "The octal number system uses digits from 0 to 7 and has a base of 8. It provides a compact representation of binary numbers."
+      },
+      {
+        "heading": "Hexadecimal Number System",
+        "content": "The hexadecimal number system uses digits 0–9 and letters A–F with a base of 16. It is commonly used in computer programming."
+      },
+      {
+        "heading": "Binary to Decimal Conversion",
+        "content": "Binary numbers can be converted to decimal by multiplying each digit by the corresponding power of 2 and adding the results."
+      },
+      {
+        "heading": "Decimal to Binary Conversion",
+        "content": "Decimal numbers are converted to binary by repeatedly dividing the number by 2 and noting the remainders."
+      },
+      {
+        "heading": "Octal and Hexadecimal Conversions",
+        "content": "Binary numbers can be easily converted to octal by grouping bits into sets of three and to hexadecimal by grouping bits into sets of four."
+      },
+      {
+        "heading": "1's Complement",
+        "content": "The 1's complement of a binary number is obtained by changing all 0s to 1s and all 1s to 0s."
+      },
+      {
+        "heading": "2's Complement",
+        "content": "The 2's complement of a binary number is obtained by adding 1 to its 1's complement. It is widely used for representing negative numbers."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is a number system?",
+        "answer": "A number system is a method of representing numbers using a set of symbols and rules."
+      },
+      {
+        "question": "What is the base of the decimal number system?",
+        "answer": "The base of the decimal number system is 10."
+      },
+      {
+        "question": "What is the base of the binary number system?",
+        "answer": "The base of the binary number system is 2."
+      },
+      {
+        "question": "Which digits are used in the binary number system?",
+        "answer": "The binary number system uses only 0 and 1."
+      },
+      {
+        "question": "What is an octal number system?",
+        "answer": "The octal number system uses digits 0 to 7 and has a base of 8."
+      },
+      {
+        "question": "What is a hexadecimal number system?",
+        "answer": "The hexadecimal number system uses digits 0–9 and letters A–F with a base of 16."
+      },
+      {
+        "question": "What is 1's complement?",
+        "answer": "1's complement is obtained by inverting all bits of a binary number."
+      },
+      {
+        "question": "What is 2's complement?",
+        "answer": "2's complement is obtained by adding 1 to the 1's complement of a binary number."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Differentiate between decimal and binary number systems.",
+        "answer": "The decimal system uses digits 0–9 and base 10, whereas the binary system uses digits 0 and 1 and base 2."
+      },
+      {
+        "question": "Explain binary to decimal conversion.",
+        "answer": "Each binary digit is multiplied by the corresponding power of 2 and the results are added to obtain the decimal value."
+      },
+      {
+        "question": "Explain decimal to binary conversion.",
+        "answer": "The decimal number is repeatedly divided by 2 and the remainders are read in reverse order."
+      },
+      {
+        "question": "What are the advantages of hexadecimal numbers?",
+        "answer": "Hexadecimal numbers provide a compact representation of binary data and are easier to read and write."
+      },
+      {
+        "question": "Explain 1's and 2's complement.",
+        "answer": "1's complement is obtained by bit inversion. Adding 1 to the 1's complement gives the 2's complement."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain various number systems used in computers.",
+        "answer": "The major number systems used in computers are decimal (base 10), binary (base 2), octal (base 8), and hexadecimal (base 16). Each system uses a different set of symbols and is used for specific computing purposes."
+      },
+      {
+        "question": "Explain binary to decimal conversion with an example.",
+        "answer": "To convert binary to decimal, multiply each bit by the corresponding power of 2 and add the results. Example: 1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 11₁₀."
+      },
+      {
+        "question": "Explain decimal to binary conversion with an example.",
+        "answer": "Repeatedly divide the decimal number by 2 and record the remainders. Example: 13₁₀ = 1101₂."
+      },
+      {
+        "question": "Describe octal and hexadecimal number systems.",
+        "answer": "The octal system uses digits 0–7 and base 8. The hexadecimal system uses digits 0–9 and letters A–F with base 16. Both provide compact representations of binary numbers."
+      },
+      {
+        "question": "Explain 1's complement and 2's complement.",
+        "answer": "1's complement is obtained by changing all 0s to 1s and vice versa. 2's complement is obtained by adding 1 to the 1's complement. These methods are used for representing signed numbers."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "What is the base of the binary number system?",
+        "answer": "2"
+      },
+      {
+        "question": "Which number system uses digits 0 and 1?",
+        "answer": "Binary"
+      },
+      {
+        "question": "What is the base of the octal number system?",
+        "answer": "8"
+      },
+      {
+        "question": "What is the base of the hexadecimal number system?",
+        "answer": "16"
+      },
+      {
+        "question": "Which number system is commonly used by humans?",
+        "answer": "Decimal"
+      },
+      {
+        "question": "What is the hexadecimal equivalent of decimal 10?",
+        "answer": "A"
+      },
+      {
+        "question": "What is obtained by adding 1 to the 1's complement?",
+        "answer": "2's Complement"
+      },
+      {
+        "question": "Which number system is directly understood by computers?",
+        "answer": "Binary"
+      },
+      {
+        "question": "How many digits are used in the octal number system?",
+        "answer": "8"
+      },
+      {
+        "question": "Which number system uses symbols A to F?",
+        "answer": "Hexadecimal"
+      }
+    ]
+  },
+
+ "computer-organization": {
+    "summary": [
+      {
+        "heading": "Computer Organization",
+        "content": "Computer organization refers to the operational structure and functional behavior of various units of a computer system."
+      },
+      {
+        "heading": "Functional Units of a Computer",
+        "content": "A computer consists of Input Unit, Memory Unit, Central Processing Unit (CPU), and Output Unit. These units work together to process data."
+      },
+      {
+        "heading": "Input Unit",
+        "content": "The input unit accepts data and instructions from the user and converts them into a form that the computer can process."
+      },
+      {
+        "heading": "Output Unit",
+        "content": "The output unit presents the processed information to the user in a readable form through devices such as monitors and printers."
+      },
+      {
+        "heading": "Memory Unit",
+        "content": "The memory unit stores data, instructions, and results temporarily or permanently for future use."
+      },
+      {
+        "heading": "Central Processing Unit",
+        "content": "The CPU is known as the brain of the computer. It performs arithmetic, logical, and control operations."
+      },
+      {
+        "heading": "Arithmetic Logic Unit",
+        "content": "The ALU performs arithmetic operations such as addition and subtraction and logical operations such as comparison."
+      },
+      {
+        "heading": "Control Unit",
+        "content": "The Control Unit coordinates and controls all activities of the computer system."
+      },
+      {
+        "heading": "Primary Memory",
+        "content": "Primary memory includes RAM and ROM. It stores data and instructions that are currently being processed."
+      },
+      {
+        "heading": "Secondary Memory",
+        "content": "Secondary memory provides permanent storage for data and includes hard disks, SSDs, CDs, and pen drives."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is computer organization?",
+        "answer": "Computer organization refers to the structure and operational behavior of computer components."
+      },
+      {
+        "question": "What are the main functional units of a computer?",
+        "answer": "Input Unit, Memory Unit, CPU, and Output Unit are the main functional units."
+      },
+      {
+        "question": "What is the function of the Input Unit?",
+        "answer": "The Input Unit accepts data and instructions from the user."
+      },
+      {
+        "question": "What is the function of the Output Unit?",
+        "answer": "The Output Unit presents processed information to the user."
+      },
+      {
+        "question": "What is CPU?",
+        "answer": "CPU stands for Central Processing Unit and is responsible for processing data and instructions."
+      },
+      {
+        "question": "What is ALU?",
+        "answer": "ALU stands for Arithmetic Logic Unit and performs arithmetic and logical operations."
+      },
+      {
+        "question": "What is the Control Unit?",
+        "answer": "The Control Unit controls and coordinates all operations of a computer."
+      },
+      {
+        "question": "Name two types of primary memory.",
+        "answer": "RAM and ROM are two types of primary memory."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain the role of the CPU.",
+        "answer": "The CPU processes data, executes instructions, and controls the operations of all computer components."
+      },
+      {
+        "question": "Differentiate between primary and secondary memory.",
+        "answer": "Primary memory is directly accessed by the CPU and is faster, while secondary memory provides permanent storage and is slower."
+      },
+      {
+        "question": "Explain the function of the ALU.",
+        "answer": "The ALU performs arithmetic calculations and logical comparisons required for processing data."
+      },
+      {
+        "question": "What are the responsibilities of the Control Unit?",
+        "answer": "The Control Unit directs the execution of instructions and manages communication between components."
+      },
+      {
+        "question": "Explain the function of memory in a computer.",
+        "answer": "Memory stores data, instructions, and results for processing and future retrieval."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain the functional units of a computer.",
+        "answer": "The functional units of a computer are Input Unit, Memory Unit, CPU, and Output Unit. The Input Unit receives data, the Memory Unit stores it, the CPU processes it, and the Output Unit displays the results."
+      },
+      {
+        "question": "Describe the structure of the CPU.",
+        "answer": "The CPU consists of the Arithmetic Logic Unit (ALU), Control Unit (CU), and registers. Together they execute instructions and process data efficiently."
+      },
+      {
+        "question": "Explain primary and secondary memory.",
+        "answer": "Primary memory includes RAM and ROM and is directly accessible by the CPU. Secondary memory includes storage devices such as hard disks and SSDs used for permanent storage."
+      },
+      {
+        "question": "Explain the functions of Input and Output units.",
+        "answer": "The Input Unit receives data and instructions, while the Output Unit converts processed results into a form understandable to users."
+      },
+      {
+        "question": "Why is the CPU called the brain of the computer?",
+        "answer": "The CPU controls all operations, processes instructions, performs calculations, and manages communication among computer components."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Which unit is called the brain of the computer?",
+        "answer": "CPU"
+      },
+      {
+        "question": "Which unit performs arithmetic operations?",
+        "answer": "ALU"
+      },
+      {
+        "question": "Which unit controls all computer activities?",
+        "answer": "Control Unit"
+      },
+      {
+        "question": "Which memory is temporary?",
+        "answer": "RAM"
+      },
+      {
+        "question": "Which memory is permanent?",
+        "answer": "ROM"
+      },
+      {
+        "question": "Which unit receives data from the user?",
+        "answer": "Input Unit"
+      },
+      {
+        "question": "Which unit displays processed results?",
+        "answer": "Output Unit"
+      },
+      {
+        "question": "What does CPU stand for?",
+        "answer": "Central Processing Unit"
+      },
+      {
+        "question": "Which storage device is secondary memory?",
+        "answer": "Hard Disk"
+      },
+      {
+        "question": "Which component stores data and instructions?",
+        "answer": "Memory Unit"
+      }
+    ]
+  },
+
+  "operating-system": {
+    "summary": [
+      {
+        "heading": "Operating System",
+        "content": "An Operating System (OS) is system software that acts as an interface between the user and computer hardware. It manages hardware resources and provides services to application programs."
+      },
+      {
+        "heading": "Functions of an Operating System",
+        "content": "The operating system manages processes, memory, files, devices, security, and user interaction. It ensures efficient utilization of system resources."
+      },
+      {
+        "heading": "Process Management",
+        "content": "Process management involves creating, scheduling, executing, and terminating processes. The operating system allocates CPU time to processes."
+      },
+      {
+        "heading": "Memory Management",
+        "content": "Memory management is responsible for allocating and deallocating memory space to programs and processes during execution."
+      },
+      {
+        "heading": "File Management",
+        "content": "The operating system organizes, stores, retrieves, and protects files and directories on storage devices."
+      },
+      {
+        "heading": "Device Management",
+        "content": "Device management controls communication between hardware devices and the computer system through device drivers."
+      },
+      {
+        "heading": "User Interface",
+        "content": "The operating system provides user interfaces such as Command Line Interface (CLI) and Graphical User Interface (GUI) for interaction."
+      },
+      {
+        "heading": "Types of Operating Systems",
+        "content": "Common types of operating systems include Batch Operating System, Multiprogramming Operating System, Time Sharing Operating System, Real-Time Operating System, and Distributed Operating System."
+      },
+      {
+        "heading": "Multiprogramming",
+        "content": "Multiprogramming allows multiple programs to reside in memory simultaneously and share CPU resources efficiently."
+      },
+      {
+        "heading": "Real-Time Operating System",
+        "content": "A Real-Time Operating System processes data and responds to events within a specified time limit, making it suitable for critical applications."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is an Operating System?",
+        "answer": "An Operating System is system software that acts as an interface between the user and computer hardware."
+      },
+      {
+        "question": "What is process management?",
+        "answer": "Process management is the activity of creating, scheduling, executing, and terminating processes."
+      },
+      {
+        "question": "What is memory management?",
+        "answer": "Memory management is the process of allocating and controlling memory resources for programs."
+      },
+      {
+        "question": "What is file management?",
+        "answer": "File management is the process of organizing, storing, and retrieving files on storage devices."
+      },
+      {
+        "question": "What is device management?",
+        "answer": "Device management controls and coordinates the operation of hardware devices connected to the computer."
+      },
+      {
+        "question": "What is GUI?",
+        "answer": "GUI stands for Graphical User Interface and allows users to interact using icons, windows, and menus."
+      },
+      {
+        "question": "What is CLI?",
+        "answer": "CLI stands for Command Line Interface and allows users to interact through text commands."
+      },
+      {
+        "question": "What is a Real-Time Operating System?",
+        "answer": "A Real-Time Operating System responds to events and processes data within a fixed time constraint."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain the functions of an Operating System.",
+        "answer": "An Operating System performs process management, memory management, file management, device management, and security management."
+      },
+      {
+        "question": "Differentiate between CLI and GUI.",
+        "answer": "CLI uses text commands for interaction, whereas GUI uses graphical elements such as windows, icons, and menus."
+      },
+      {
+        "question": "Explain process management.",
+        "answer": "Process management handles the creation, execution, scheduling, and termination of processes in a computer system."
+      },
+      {
+        "question": "Explain memory management.",
+        "answer": "Memory management allocates memory to programs, tracks memory usage, and frees memory when no longer needed."
+      },
+      {
+        "question": "What is a Time Sharing Operating System?",
+        "answer": "A Time Sharing Operating System allows multiple users to access the computer system simultaneously by sharing CPU time."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain the Operating System and its functions.",
+        "answer": "An Operating System is system software that manages computer hardware and software resources. Its major functions include process management, memory management, file management, device management, security management, and providing user interfaces."
+      },
+      {
+        "question": "Explain different types of Operating Systems.",
+        "answer": "Types of Operating Systems include Batch Operating System, Multiprogramming Operating System, Time Sharing Operating System, Real-Time Operating System, and Distributed Operating System. Each type is designed to meet specific computing requirements."
+      },
+      {
+        "question": "Explain process and memory management.",
+        "answer": "Process management controls the execution of processes and CPU allocation. Memory management allocates memory resources, tracks usage, and optimizes memory utilization."
+      },
+      {
+        "question": "Describe file management and device management.",
+        "answer": "File management organizes and maintains files and directories, while device management controls communication between the operating system and hardware devices."
+      },
+      {
+        "question": "Explain the user interface provided by an Operating System.",
+        "answer": "Operating systems provide Command Line Interface (CLI) and Graphical User Interface (GUI) to help users interact with the computer system efficiently."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Which software acts as an interface between user and hardware?",
+        "answer": "Operating System"
+      },
+      {
+        "question": "Which function allocates CPU time to processes?",
+        "answer": "Process Management"
+      },
+      {
+        "question": "Which function manages files and directories?",
+        "answer": "File Management"
+      },
+      {
+        "question": "What does GUI stand for?",
+        "answer": "Graphical User Interface"
+      },
+      {
+        "question": "What does CLI stand for?",
+        "answer": "Command Line Interface"
+      },
+      {
+        "question": "Which operating system responds within a fixed time limit?",
+        "answer": "Real-Time Operating System"
+      },
+      {
+        "question": "Which function controls hardware devices?",
+        "answer": "Device Management"
+      },
+      {
+        "question": "Which operating system allows multiple programs in memory simultaneously?",
+        "answer": "Multiprogramming Operating System"
+      },
+      {
+        "question": "Which management function allocates memory resources?",
+        "answer": "Memory Management"
+      },
+      {
+        "question": "Which software is called the resource manager of a computer?",
+        "answer": "Operating System"
+      }
+    ]
+  },
+
+   "windows-operating-system": {
+    "summary": [
+      {
+        "heading": "Windows Operating System",
+        "content": "Microsoft Windows is a popular graphical operating system developed by Microsoft. It provides an easy-to-use interface for users to interact with computers."
+      },
+      {
+        "heading": "Desktop",
+        "content": "The Desktop is the main screen displayed after Windows starts. It contains icons, shortcuts, and the taskbar."
+      },
+      {
+        "heading": "Icons",
+        "content": "Icons are graphical representations of files, folders, applications, and system resources that help users access them quickly."
+      },
+      {
+        "heading": "Taskbar",
+        "content": "The Taskbar is located at the bottom of the desktop and contains the Start button, open applications, and notification area."
+      },
+      {
+        "heading": "Start Menu",
+        "content": "The Start Menu provides access to programs, settings, files, and power options available in Windows."
+      },
+      {
+        "heading": "Windows Explorer",
+        "content": "Windows Explorer, also known as File Explorer, is used to browse, manage, and organize files and folders."
+      },
+      {
+        "heading": "Files and Folders",
+        "content": "A file is a collection of related information, while a folder is a container used to organize files and subfolders."
+      },
+      {
+        "heading": "Control Panel",
+        "content": "Control Panel is a Windows utility that allows users to configure system settings, hardware devices, and software."
+      },
+      {
+        "heading": "Recycle Bin",
+        "content": "Recycle Bin temporarily stores deleted files and folders, allowing users to restore them if necessary."
+      },
+      {
+        "heading": "Windows Accessories",
+        "content": "Windows Accessories are built-in utility programs such as Notepad, Paint, Calculator, and WordPad that assist users in performing common tasks."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is Microsoft Windows?",
+        "answer": "Microsoft Windows is a graphical operating system developed by Microsoft for personal computers."
+      },
+      {
+        "question": "What is the Desktop?",
+        "answer": "The Desktop is the main screen displayed after Windows starts."
+      },
+      {
+        "question": "What are icons?",
+        "answer": "Icons are graphical representations of files, folders, programs, and system resources."
+      },
+      {
+        "question": "What is the Taskbar?",
+        "answer": "The Taskbar is a bar that contains the Start button, open applications, and notification icons."
+      },
+      {
+        "question": "What is the Start Menu?",
+        "answer": "The Start Menu provides access to programs, settings, files, and system functions."
+      },
+      {
+        "question": "What is Windows Explorer?",
+        "answer": "Windows Explorer is a file management utility used to browse and organize files and folders."
+      },
+      {
+        "question": "What is a folder?",
+        "answer": "A folder is a container used to store and organize files and other folders."
+      },
+      {
+        "question": "What is Recycle Bin?",
+        "answer": "Recycle Bin is a temporary storage location for deleted files and folders."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain the purpose of the Desktop in Windows.",
+        "answer": "The Desktop serves as the main workspace in Windows and provides quick access to applications, files, folders, and system resources."
+      },
+      {
+        "question": "What are the functions of the Taskbar?",
+        "answer": "The Taskbar displays running applications, provides access to the Start Menu, and shows notifications and system status."
+      },
+      {
+        "question": "Explain the role of Windows Explorer.",
+        "answer": "Windows Explorer helps users create, copy, move, rename, search, and delete files and folders."
+      },
+      {
+        "question": "Differentiate between files and folders.",
+        "answer": "A file stores information, whereas a folder is used to organize and manage files."
+      },
+      {
+        "question": "Explain the purpose of Recycle Bin.",
+        "answer": "Recycle Bin stores deleted files temporarily so they can be restored if deleted accidentally."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain the main components of the Windows Desktop.",
+        "answer": "The Windows Desktop consists of icons, taskbar, Start button, notification area, shortcuts, and background. These components help users access programs and manage tasks efficiently."
+      },
+      {
+        "question": "Describe the features of Windows Explorer.",
+        "answer": "Windows Explorer provides tools for file and folder management, including creating, copying, moving, deleting, renaming, searching, and organizing files."
+      },
+      {
+        "question": "Explain the functions of the Start Menu and Taskbar.",
+        "answer": "The Start Menu provides access to applications, settings, and power options. The Taskbar displays running programs and system notifications for easy navigation."
+      },
+      {
+        "question": "Explain the importance of Control Panel.",
+        "answer": "Control Panel allows users to configure hardware, software, network settings, user accounts, security settings, and system preferences."
+      },
+      {
+        "question": "Describe file and folder management in Windows.",
+        "answer": "Windows provides tools for creating, organizing, moving, copying, renaming, searching, and deleting files and folders using Windows Explorer."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Which company developed Windows?",
+        "answer": "Microsoft"
+      },
+      {
+        "question": "What is the main screen displayed after Windows starts?",
+        "answer": "Desktop"
+      },
+      {
+        "question": "Which utility is used to manage files and folders?",
+        "answer": "Windows Explorer"
+      },
+      {
+        "question": "Where are deleted files temporarily stored?",
+        "answer": "Recycle Bin"
+      },
+      {
+        "question": "Which component contains the Start button?",
+        "answer": "Taskbar"
+      },
+      {
+        "question": "Which menu provides access to installed programs?",
+        "answer": "Start Menu"
+      },
+      {
+        "question": "What is a graphical representation of a file called?",
+        "answer": "Icon"
+      },
+      {
+        "question": "Which Windows utility is used to change system settings?",
+        "answer": "Control Panel"
+      },
+      {
+        "question": "Which built-in application is used for simple text editing?",
+        "answer": "Notepad"
+      },
+      {
+        "question": "Which built-in application is used for drawing pictures?",
+        "answer": "Paint"
+      }
+    ]
+  },
+
+   "specification-and-abstraction": {
+    "summary": [
+      {
+        "heading": "Specification and Abstraction",
+        "content": "Specification and abstraction are important problem-solving concepts in computer science that help in designing efficient programs and systems."
+      },
+      {
+        "heading": "Specification",
+        "content": "Specification is a detailed description of the requirements and expected behavior of a system, program, or process."
+      },
+      {
+        "heading": "Purpose of Specification",
+        "content": "Specifications help programmers understand what a program should do before implementation begins."
+      },
+      {
+        "heading": "Abstraction",
+        "content": "Abstraction is the process of hiding unnecessary details and showing only the essential features of an object or system."
+      },
+      {
+        "heading": "Need for Abstraction",
+        "content": "Abstraction reduces complexity and helps programmers focus on important aspects of a problem."
+      },
+      {
+        "heading": "Data Abstraction",
+        "content": "Data abstraction involves representing only essential information about data while hiding implementation details."
+      },
+      {
+        "heading": "Procedural Abstraction",
+        "content": "Procedural abstraction allows programmers to use functions and procedures without knowing their internal implementation."
+      },
+      {
+        "heading": "Advantages of Abstraction",
+        "content": "Abstraction improves code readability, maintainability, reusability, and reduces program complexity."
+      },
+      {
+        "heading": "Real-Life Examples",
+        "content": "Using a television remote or driving a car are examples of abstraction because users interact without knowing internal mechanisms."
+      },
+      {
+        "heading": "Role in Programming",
+        "content": "Abstraction enables modular programming and helps developers manage large software projects efficiently."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is specification?",
+        "answer": "Specification is a detailed description of the requirements and expected behavior of a system or program."
+      },
+      {
+        "question": "What is abstraction?",
+        "answer": "Abstraction is the process of hiding unnecessary details and showing only essential features."
+      },
+      {
+        "question": "Why is specification important?",
+        "answer": "Specification helps developers understand what a program should accomplish before implementation."
+      },
+      {
+        "question": "What is data abstraction?",
+        "answer": "Data abstraction represents essential information while hiding implementation details."
+      },
+      {
+        "question": "What is procedural abstraction?",
+        "answer": "Procedural abstraction allows users to use procedures or functions without knowing internal details."
+      },
+      {
+        "question": "Give an example of abstraction.",
+        "answer": "Using a television remote control is an example of abstraction."
+      },
+      {
+        "question": "What is the main purpose of abstraction?",
+        "answer": "The main purpose is to reduce complexity and improve understanding."
+      },
+      {
+        "question": "How does abstraction help programmers?",
+        "answer": "It allows programmers to focus on important features while ignoring unnecessary details."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain specification.",
+        "answer": "Specification describes the requirements, inputs, outputs, and expected behavior of a program before it is developed."
+      },
+      {
+        "question": "Explain abstraction with an example.",
+        "answer": "Abstraction hides complex implementation details and shows only essential features. Driving a car without knowing engine details is an example."
+      },
+      {
+        "question": "Differentiate between specification and abstraction.",
+        "answer": "Specification defines what a system should do, whereas abstraction hides unnecessary details and focuses on important features."
+      },
+      {
+        "question": "What are the benefits of abstraction?",
+        "answer": "Abstraction reduces complexity, improves maintainability, and increases code reusability."
+      },
+      {
+        "question": "Explain procedural abstraction.",
+        "answer": "Procedural abstraction allows programmers to use functions without understanding their internal implementation."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain specification and its importance.",
+        "answer": "Specification is a detailed description of the requirements and expected behavior of a program or system. It helps developers understand the objectives, inputs, outputs, and constraints before implementation, reducing errors and improving software quality."
+      },
+      {
+        "question": "Explain abstraction and its advantages.",
+        "answer": "Abstraction is the process of hiding unnecessary details and showing only essential features. Its advantages include reduced complexity, improved readability, better maintainability, and easier software development."
+      },
+      {
+        "question": "Describe data abstraction and procedural abstraction.",
+        "answer": "Data abstraction focuses on representing essential data while hiding implementation details. Procedural abstraction allows the use of functions and procedures without knowing how they work internally."
+      },
+      {
+        "question": "Differentiate between specification and abstraction.",
+        "answer": "Specification defines the requirements and behavior of a system, while abstraction simplifies complex systems by hiding unnecessary details and exposing only important features."
+      },
+      {
+        "question": "Explain the role of abstraction in software development.",
+        "answer": "Abstraction helps developers manage complexity, improve modularity, encourage code reuse, and develop large software systems more efficiently."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "What is a specification?",
+        "answer": "Description of requirements"
+      },
+      {
+        "question": "Which concept hides implementation details?",
+        "answer": "Abstraction"
+      },
+      {
+        "question": "What is the purpose of abstraction?",
+        "answer": "Reduce complexity"
+      },
+      {
+        "question": "Which abstraction deals with data representation?",
+        "answer": "Data Abstraction"
+      },
+      {
+        "question": "Which abstraction uses functions and procedures?",
+        "answer": "Procedural Abstraction"
+      },
+      {
+        "question": "Which concept defines expected system behavior?",
+        "answer": "Specification"
+      },
+      {
+        "question": "Abstraction improves?",
+        "answer": "Maintainability"
+      },
+      {
+        "question": "Which is an example of abstraction?",
+        "answer": "Television Remote"
+      },
+      {
+        "question": "Abstraction helps in managing?",
+        "answer": "Complexity"
+      },
+      {
+        "question": "Which concept focuses on essential features only?",
+        "answer": "Abstraction"
+      }
+    ]
+  },
+
+   "composition-and-decomposition": {
+    "summary": [
+      {
+        "heading": "Composition and Decomposition",
+        "content": "Composition and decomposition are problem-solving techniques used in computer science to manage complex systems and programs effectively."
+      },
+      {
+        "heading": "Decomposition",
+        "content": "Decomposition is the process of breaking a complex problem into smaller and manageable sub-problems."
+      },
+      {
+        "heading": "Need for Decomposition",
+        "content": "Large problems are difficult to solve directly. Decomposition simplifies the problem and makes development easier."
+      },
+      {
+        "heading": "Advantages of Decomposition",
+        "content": "Decomposition improves understanding, simplifies debugging, promotes code reuse, and makes maintenance easier."
+      },
+      {
+        "heading": "Composition",
+        "content": "Composition is the process of combining smaller components or modules to form a complete system."
+      },
+      {
+        "heading": "Need for Composition",
+        "content": "Composition helps in integrating individual modules and building larger applications from smaller parts."
+      },
+      {
+        "heading": "Modular Programming",
+        "content": "Modular programming uses decomposition to divide programs into modules and composition to combine them into a complete application."
+      },
+      {
+        "heading": "Top-Down Approach",
+        "content": "The top-down approach starts with the overall problem and breaks it into smaller sub-problems."
+      },
+      {
+        "heading": "Bottom-Up Approach",
+        "content": "The bottom-up approach begins with smaller components and combines them to form a complete system."
+      },
+      {
+        "heading": "Applications",
+        "content": "Composition and decomposition are widely used in software development, system design, project management, and problem-solving."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is decomposition?",
+        "answer": "Decomposition is the process of dividing a complex problem into smaller manageable sub-problems."
+      },
+      {
+        "question": "What is composition?",
+        "answer": "Composition is the process of combining smaller modules to create a complete system."
+      },
+      {
+        "question": "Why is decomposition important?",
+        "answer": "It simplifies complex problems and makes them easier to understand and solve."
+      },
+      {
+        "question": "What is modular programming?",
+        "answer": "Modular programming is a technique that divides a program into separate modules."
+      },
+      {
+        "question": "What is a module?",
+        "answer": "A module is an independent unit that performs a specific task within a program."
+      },
+      {
+        "question": "What is the top-down approach?",
+        "answer": "The top-down approach breaks a large problem into smaller sub-problems."
+      },
+      {
+        "question": "What is the bottom-up approach?",
+        "answer": "The bottom-up approach combines smaller modules to build a complete system."
+      },
+      {
+        "question": "State one advantage of composition.",
+        "answer": "Composition promotes code reuse and simplifies software development."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain decomposition.",
+        "answer": "Decomposition is the process of dividing a large problem into smaller parts that can be solved independently."
+      },
+      {
+        "question": "Explain composition.",
+        "answer": "Composition combines individual modules or components to form a complete system."
+      },
+      {
+        "question": "List the advantages of decomposition.",
+        "answer": "Decomposition improves understanding, reduces complexity, simplifies testing, and enhances maintainability."
+      },
+      {
+        "question": "Differentiate between composition and decomposition.",
+        "answer": "Decomposition breaks a problem into smaller parts, while composition combines smaller parts into a complete system."
+      },
+      {
+        "question": "Explain modular programming.",
+        "answer": "Modular programming organizes software into independent modules that can be developed and maintained separately."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain composition and decomposition.",
+        "answer": "Decomposition is the process of breaking a complex problem into smaller manageable units. Composition is the process of combining these smaller units to create a complete solution. Together they simplify software development and improve maintainability."
+      },
+      {
+        "question": "Describe the advantages of decomposition.",
+        "answer": "Decomposition reduces complexity, improves problem understanding, simplifies debugging, encourages teamwork, and enhances software maintenance."
+      },
+      {
+        "question": "Explain the role of composition in software development.",
+        "answer": "Composition helps integrate independent modules into a complete application. It promotes code reuse, modularity, and efficient development."
+      },
+      {
+        "question": "Differentiate between top-down and bottom-up approaches.",
+        "answer": "The top-down approach starts with a large problem and breaks it into smaller parts. The bottom-up approach starts with small components and combines them into a complete system."
+      },
+      {
+        "question": "Explain modular programming with its benefits.",
+        "answer": "Modular programming divides software into independent modules. Benefits include easier maintenance, improved readability, code reuse, simplified testing, and better teamwork."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Which technique breaks a problem into smaller parts?",
+        "answer": "Decomposition"
+      },
+      {
+        "question": "Which technique combines modules into a system?",
+        "answer": "Composition"
+      },
+      {
+        "question": "Which approach starts from the overall problem?",
+        "answer": "Top-Down Approach"
+      },
+      {
+        "question": "Which approach starts with smaller modules?",
+        "answer": "Bottom-Up Approach"
+      },
+      {
+        "question": "A module is a?",
+        "answer": "Independent unit of a program"
+      },
+      {
+        "question": "Which programming technique uses modules?",
+        "answer": "Modular Programming"
+      },
+      {
+        "question": "Decomposition helps reduce?",
+        "answer": "Complexity"
+      },
+      {
+        "question": "Composition promotes?",
+        "answer": "Code Reuse"
+      },
+      {
+        "question": "Which approach is commonly used in system design?",
+        "answer": "Top-Down Approach"
+      },
+      {
+        "question": "Composition and decomposition are used for?",
+        "answer": "Problem Solving"
+      }
+    ]
+  },
+
+  "iteration-and-recursion": {
+    "summary": [
+      {
+        "heading": "Iteration and Recursion",
+        "content": "Iteration and recursion are two important techniques used in programming to perform repetitive tasks and solve problems efficiently."
+      },
+      {
+        "heading": "Iteration",
+        "content": "Iteration is the process of repeatedly executing a set of statements until a specified condition becomes false."
+      },
+      {
+        "heading": "Looping Statements",
+        "content": "Looping statements such as for, while, and do-while are used to implement iteration in programming languages."
+      },
+      {
+        "heading": "Advantages of Iteration",
+        "content": "Iteration reduces code repetition, improves readability, and makes programs more efficient."
+      },
+      {
+        "heading": "Recursion",
+        "content": "Recursion is a programming technique in which a function calls itself directly or indirectly to solve a problem."
+      },
+      {
+        "heading": "Recursive Function",
+        "content": "A recursive function contains a call to itself and must include a terminating condition known as the base case."
+      },
+      {
+        "heading": "Base Case",
+        "content": "The base case is the condition that stops the recursive calls and prevents infinite execution."
+      },
+      {
+        "heading": "Advantages of Recursion",
+        "content": "Recursion simplifies solutions for problems such as factorial calculation, tree traversal, and mathematical computations."
+      },
+      {
+        "heading": "Iteration vs Recursion",
+        "content": "Iteration uses loops for repetition, whereas recursion uses repeated function calls to solve a problem."
+      },
+      {
+        "heading": "Applications",
+        "content": "Iteration and recursion are widely used in searching, sorting, mathematical calculations, and problem-solving algorithms."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is iteration?",
+        "answer": "Iteration is the repeated execution of a set of statements until a condition becomes false."
+      },
+      {
+        "question": "What is recursion?",
+        "answer": "Recursion is a technique in which a function calls itself to solve a problem."
+      },
+      {
+        "question": "What is a recursive function?",
+        "answer": "A recursive function is a function that calls itself directly or indirectly."
+      },
+      {
+        "question": "What is a base case?",
+        "answer": "A base case is the terminating condition that stops recursive calls."
+      },
+      {
+        "question": "Name two looping statements.",
+        "answer": "For loop and While loop."
+      },
+      {
+        "question": "Why is iteration used?",
+        "answer": "Iteration is used to perform repetitive tasks efficiently."
+      },
+      {
+        "question": "Why is recursion used?",
+        "answer": "Recursion is used to simplify the solution of complex problems."
+      },
+      {
+        "question": "Give an example of recursion.",
+        "answer": "Factorial calculation is a common example of recursion."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain iteration.",
+        "answer": "Iteration repeatedly executes a block of statements using loops until a specified condition is satisfied."
+      },
+      {
+        "question": "Explain recursion.",
+        "answer": "Recursion is a process where a function repeatedly calls itself until a base condition is reached."
+      },
+      {
+        "question": "What is the role of a base case in recursion?",
+        "answer": "The base case stops recursive calls and prevents infinite recursion."
+      },
+      {
+        "question": "Differentiate between iteration and recursion.",
+        "answer": "Iteration uses loops for repetition, whereas recursion uses self-calling functions."
+      },
+      {
+        "question": "List the advantages of recursion.",
+        "answer": "Recursion simplifies program logic and is useful for solving mathematical and hierarchical problems."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain iteration with its advantages.",
+        "answer": "Iteration is the repeated execution of statements using loops such as for and while. It reduces code duplication, improves efficiency, and simplifies repetitive tasks."
+      },
+      {
+        "question": "Explain recursion and its components.",
+        "answer": "Recursion is a technique where a function calls itself. It consists of recursive calls and a base case that terminates execution."
+      },
+      {
+        "question": "Differentiate between iteration and recursion.",
+        "answer": "Iteration uses looping constructs and consumes less memory. Recursion uses self-calling functions and requires additional memory for function calls. Iteration is generally faster, while recursion often produces simpler code."
+      },
+      {
+        "question": "Explain the importance of the base case.",
+        "answer": "The base case provides a stopping condition for recursion. Without it, recursive calls continue indefinitely, causing program failure."
+      },
+      {
+        "question": "Describe applications of iteration and recursion.",
+        "answer": "Iteration is used in repetitive computations and data processing. Recursion is used in factorial calculations, tree traversal, searching algorithms, and divide-and-conquer techniques."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Which technique uses loops?",
+        "answer": "Iteration"
+      },
+      {
+        "question": "Which technique uses self-calling functions?",
+        "answer": "Recursion"
+      },
+      {
+        "question": "What stops recursive execution?",
+        "answer": "Base Case"
+      },
+      {
+        "question": "Which loop executes while a condition is true?",
+        "answer": "While Loop"
+      },
+      {
+        "question": "Which loop is commonly used for counting repetitions?",
+        "answer": "For Loop"
+      },
+      {
+        "question": "Factorial calculation commonly uses?",
+        "answer": "Recursion"
+      },
+      {
+        "question": "Which technique generally consumes less memory?",
+        "answer": "Iteration"
+      },
+      {
+        "question": "A recursive function must contain?",
+        "answer": "Base Case"
+      },
+      {
+        "question": "Iteration is mainly used for?",
+        "answer": "Repetitive Tasks"
+      },
+      {
+        "question": "Recursion simplifies?",
+        "answer": "Complex Problems"
+      }
+    ]
+  },
+
+  "introduction-to-cpp": {
+    "summary": [
+      {
+        "heading": "Introduction to C++",
+        "content": "C++ is a general-purpose programming language developed by Bjarne Stroustrup. It is an extension of the C programming language and supports both procedural and object-oriented programming."
+      },
+      {
+        "heading": "Features of C++",
+        "content": "C++ provides portability, efficiency, modularity, reusability, object-oriented programming, and support for large-scale software development."
+      },
+      {
+        "heading": "Structure of a C++ Program",
+        "content": "A C++ program generally consists of header files, namespace declaration, main function, variable declarations, statements, and output statements."
+      },
+      {
+        "heading": "Tokens in C++",
+        "content": "Tokens are the smallest individual units in a program. Keywords, identifiers, constants, strings, and operators are examples of tokens."
+      },
+      {
+        "heading": "Keywords",
+        "content": "Keywords are reserved words that have predefined meanings in C++ and cannot be used as identifiers."
+      },
+      {
+        "heading": "Identifiers",
+        "content": "Identifiers are user-defined names used to identify variables, functions, arrays, classes, and other program elements."
+      },
+      {
+        "heading": "Variables and Constants",
+        "content": "Variables are memory locations whose values can change during program execution, whereas constants remain fixed."
+      },
+      {
+        "heading": "Data Types",
+        "content": "C++ supports data types such as int, float, char, double, and bool for storing different kinds of values."
+      },
+      {
+        "heading": "Input and Output Statements",
+        "content": "C++ uses cin for input and cout for output through the iostream header file."
+      },
+      {
+        "heading": "Compilation Process",
+        "content": "A C++ program is written, compiled, linked, and executed to produce the desired output."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "Who developed C++?",
+        "answer": "C++ was developed by Bjarne Stroustrup."
+      },
+      {
+        "question": "What is C++?",
+        "answer": "C++ is a general-purpose programming language that supports procedural and object-oriented programming."
+      },
+      {
+        "question": "What are tokens?",
+        "answer": "Tokens are the smallest meaningful units in a C++ program."
+      },
+      {
+        "question": "What are keywords?",
+        "answer": "Keywords are reserved words with predefined meanings in C++."
+      },
+      {
+        "question": "What is an identifier?",
+        "answer": "An identifier is a user-defined name given to variables, functions, classes, and other program elements."
+      },
+      {
+        "question": "What is a variable?",
+        "answer": "A variable is a named memory location used to store data."
+      },
+      {
+        "question": "What is a constant?",
+        "answer": "A constant is a value that does not change during program execution."
+      },
+      {
+        "question": "What is the purpose of cout?",
+        "answer": "cout is used to display output on the screen."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain the features of C++.",
+        "answer": "C++ supports portability, modularity, efficiency, reusability, and object-oriented programming concepts."
+      },
+      {
+        "question": "What are tokens in C++?",
+        "answer": "Tokens are the smallest elements of a program and include keywords, identifiers, constants, operators, and strings."
+      },
+      {
+        "question": "Differentiate between variables and constants.",
+        "answer": "Variables can change their values during execution, whereas constants remain fixed throughout the program."
+      },
+      {
+        "question": "Explain identifiers with examples.",
+        "answer": "Identifiers are names given to program elements such as variables and functions. Example: totalMarks, calculateSum."
+      },
+      {
+        "question": "What is the role of cin and cout?",
+        "answer": "cin is used for input and cout is used for output in C++ programs."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain the structure of a C++ program.",
+        "answer": "A C++ program consists of header files, namespace declaration, main function, variable declarations, executable statements, and output statements. The program execution starts from the main() function."
+      },
+      {
+        "question": "Describe the features of C++.",
+        "answer": "C++ is portable, efficient, modular, reusable, object-oriented, and suitable for developing large-scale applications."
+      },
+      {
+        "question": "Explain different types of tokens in C++.",
+        "answer": "Tokens include keywords, identifiers, constants, strings, operators, and special symbols. They form the building blocks of a C++ program."
+      },
+      {
+        "question": "Explain variables, constants, and data types in C++.",
+        "answer": "Variables store changing values, constants store fixed values, and data types define the type of data stored, such as int, float, char, and double."
+      },
+      {
+        "question": "Describe the compilation process of a C++ program.",
+        "answer": "The compilation process includes writing source code, compiling it into object code, linking required libraries, and executing the final program."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Who developed C++?",
+        "answer": "Bjarne Stroustrup"
+      },
+      {
+        "question": "C++ is an extension of which language?",
+        "answer": "C"
+      },
+      {
+        "question": "Which function is the starting point of a C++ program?",
+        "answer": "main()"
+      },
+      {
+        "question": "Which statement is used for output?",
+        "answer": "cout"
+      },
+      {
+        "question": "Which statement is used for input?",
+        "answer": "cin"
+      },
+      {
+        "question": "Which of the following is a keyword?",
+        "answer": "int"
+      },
+      {
+        "question": "Which data type stores whole numbers?",
+        "answer": "int"
+      },
+      {
+        "question": "Which data type stores characters?",
+        "answer": "char"
+      },
+      {
+        "question": "What are the smallest units of a program called?",
+        "answer": "Tokens"
+      },
+      {
+        "question": "Which programming paradigm is supported by C++?",
+        "answer": "Object-Oriented Programming"
+      }
+    ]
+  },
+
+  "flow-of-control": {
+    "summary": [
+      {
+        "heading": "Flow of Control",
+        "content": "Flow of control refers to the order in which statements in a program are executed. It determines how a program makes decisions and repeats actions."
+      },
+      {
+        "heading": "Sequential Control",
+        "content": "In sequential control, statements are executed one after another in the order they appear in the program."
+      },
+      {
+        "heading": "Selection Control Structure",
+        "content": "Selection control structures allow a program to choose different paths based on specified conditions."
+      },
+      {
+        "heading": "if Statement",
+        "content": "The if statement executes a block of code only when the specified condition is true."
+      },
+      {
+        "heading": "if-else Statement",
+        "content": "The if-else statement provides two alternative execution paths depending on whether the condition is true or false."
+      },
+      {
+        "heading": "Nested if Statement",
+        "content": "A nested if statement contains another if statement inside an if or else block to evaluate multiple conditions."
+      },
+      {
+        "heading": "Switch Statement",
+        "content": "The switch statement is used to select one block of code from multiple alternatives based on the value of an expression."
+      },
+      {
+        "heading": "Iteration Control Structure",
+        "content": "Iteration control structures repeatedly execute a block of code until a specified condition becomes false."
+      },
+      {
+        "heading": "Looping Statements",
+        "content": "Common looping statements in C++ include for, while, and do-while loops."
+      },
+      {
+        "heading": "Jump Statements",
+        "content": "Jump statements such as break, continue, and goto alter the normal flow of program execution."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is flow of control?",
+        "answer": "Flow of control is the order in which program statements are executed."
+      },
+      {
+        "question": "What is sequential control?",
+        "answer": "Sequential control executes statements one after another in the order they appear."
+      },
+      {
+        "question": "What is a selection statement?",
+        "answer": "A selection statement chooses different execution paths based on conditions."
+      },
+      {
+        "question": "What is an if statement?",
+        "answer": "An if statement executes a block of code only when a specified condition is true."
+      },
+      {
+        "question": "What is an if-else statement?",
+        "answer": "An if-else statement provides two execution paths based on a condition."
+      },
+      {
+        "question": "What is a switch statement?",
+        "answer": "A switch statement selects one block of code from multiple alternatives."
+      },
+      {
+        "question": "What is iteration?",
+        "answer": "Iteration is the repeated execution of a block of statements."
+      },
+      {
+        "question": "Name any two looping statements.",
+        "answer": "for loop and while loop."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain sequential control structure.",
+        "answer": "Sequential control structure executes statements one after another in the order they are written."
+      },
+      {
+        "question": "Explain the if statement.",
+        "answer": "The if statement checks a condition and executes a block of code only when the condition is true."
+      },
+      {
+        "question": "Differentiate between if and if-else statements.",
+        "answer": "The if statement executes code only when the condition is true, whereas if-else provides alternative execution paths for both true and false conditions."
+      },
+      {
+        "question": "What is a switch statement?",
+        "answer": "A switch statement allows selection of one among multiple execution paths based on an expression value."
+      },
+      {
+        "question": "Explain looping statements.",
+        "answer": "Looping statements repeatedly execute a block of code while a specified condition remains true."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain different types of control structures.",
+        "answer": "Control structures are classified into sequential, selection, and iteration structures. Sequential executes statements in order. Selection uses conditions to choose execution paths. Iteration repeats statements until a condition changes."
+      },
+      {
+        "question": "Explain selection control structures.",
+        "answer": "Selection control structures include if, if-else, nested if, and switch statements. They help programs make decisions based on conditions."
+      },
+      {
+        "question": "Describe iteration control structures.",
+        "answer": "Iteration control structures repeatedly execute statements using loops such as for, while, and do-while. They are useful for repetitive tasks."
+      },
+      {
+        "question": "Explain the switch statement with its advantages.",
+        "answer": "The switch statement selects one option from multiple choices. It improves readability and efficiency when handling many alternatives."
+      },
+      {
+        "question": "Explain jump statements in C++.",
+        "answer": "Jump statements such as break, continue, and goto modify the normal flow of execution. break exits a loop, continue skips the current iteration, and goto transfers control to another part of the program."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Flow of control determines?",
+        "answer": "Order of execution"
+      },
+      {
+        "question": "Which control structure executes statements in order?",
+        "answer": "Sequential Control"
+      },
+      {
+        "question": "Which statement is used for decision making?",
+        "answer": "if"
+      },
+      {
+        "question": "Which statement provides multiple choices?",
+        "answer": "switch"
+      },
+      {
+        "question": "Which loop executes at least once?",
+        "answer": "do-while"
+      },
+      {
+        "question": "Which statement exits a loop immediately?",
+        "answer": "break"
+      },
+      {
+        "question": "Which statement skips the current iteration?",
+        "answer": "continue"
+      },
+      {
+        "question": "Which loop is commonly used when the number of iterations is known?",
+        "answer": "for"
+      },
+      {
+        "question": "Which control structure repeats execution?",
+        "answer": "Iteration"
+      },
+      {
+        "question": "Nested if is used for?",
+        "answer": "Multiple Conditions"
+      }
+    ]
+  },
+
+
+  
+  
+  
+}
