@@ -716,7 +716,648 @@
         "language": "C++"
       }
     ]
+  } 
   }
-    
+"12": {
+    "function": {
+      "codingPractice": [
+        {
+          "title": "Print Hello Function",
+          "description": "Write a Python function that prints Hello World.",
+          "sampleInput": "No Input",
+          "sampleOutput": "Hello World",
+          "language": "Python"
+        },
+        {
+          "title": "Add Two Numbers",
+          "description": "Create a function that returns the sum of two numbers.",
+          "sampleInput": "10 20",
+          "sampleOutput": "30",
+          "language": "Python"
+        },
+        {
+          "title": "Find Square",
+          "description": "Create a function that returns the square of a number.",
+          "sampleInput": "6",
+          "sampleOutput": "36",
+          "language": "Python"
+        },
+        {
+          "title": "Find Maximum",
+          "description": "Create a function that returns the largest of two numbers.",
+          "sampleInput": "15 25",
+          "sampleOutput": "25",
+          "language": "Python"
+        },
+        {
+          "title": "Check Even or Odd",
+          "description": "Create a function that determines whether a number is even or odd.",
+          "sampleInput": "12",
+          "sampleOutput": "Even",
+          "language": "Python"
+        }
+      ]
+    },
+
+    "data-abstraction": {
+      "codingPractice": [
+        {
+          "title": "Student Dictionary",
+          "description": "Create a dictionary containing student name and age.",
+          "sampleInput": "Siva 20",
+          "sampleOutput": "{'name':'Siva','age':20}",
+          "language": "Python"
+        },
+        {
+          "title": "Employee Record",
+          "description": "Store employee details using a dictionary.",
+          "sampleInput": "101 Arun",
+          "sampleOutput": "{'id':101,'name':'Arun'}",
+          "language": "Python"
+        },
+        {
+          "title": "Display Dictionary Values",
+          "description": "Create and display values stored in a dictionary.",
+          "sampleInput": "No Input",
+          "sampleOutput": "Dictionary Values Displayed",
+          "language": "Python"
+        },
+        {
+          "title": "Book Information",
+          "description": "Store book title and author in a dictionary.",
+          "sampleInput": "Python Guide",
+          "sampleOutput": "{'title':'Python Guide'}",
+          "language": "Python"
+        },
+        {
+          "title": "Product Details",
+          "description": "Store product information using key-value pairs.",
+          "sampleInput": "P101 Laptop",
+          "sampleOutput": "{'code':'P101','name':'Laptop'}",
+          "language": "Python"
+        }
+      ]
+    },
+
+    "scoping": {
+      "codingPractice": [
+        {
+          "title": "Global Variable",
+          "description": "Create a global variable and print it inside a function.",
+          "sampleInput": "10",
+          "sampleOutput": "10",
+          "language": "Python"
+        },
+        {
+          "title": "Local Variable",
+          "description": "Create a local variable inside a function and display it.",
+          "sampleInput": "20",
+          "sampleOutput": "20",
+          "language": "Python"
+        },
+        {
+          "title": "Global Keyword",
+          "description": "Use the global keyword to modify a global variable.",
+          "sampleInput": "5",
+          "sampleOutput": "15",
+          "language": "Python"
+        },
+        {
+          "title": "Variable Scope Demo",
+          "description": "Demonstrate local and global scope in a program.",
+          "sampleInput": "No Input",
+          "sampleOutput": "Scope Demonstrated",
+          "language": "Python"
+        },
+        {
+          "title": "Nested Function Scope",
+          "description": "Access variables inside nested functions.",
+          "sampleInput": "No Input",
+          "sampleOutput": "Nested Scope Working",
+          "language": "Python"
+        }
+      ]
+    },
+
+    "algorithmic-strategies": {
+      "codingPractice": [
+        {
+          "title": "Linear Search",
+          "description": "Search an element using linear search.",
+          "sampleInput": "10 20 30 40 50\n30",
+          "sampleOutput": "Found",
+          "language": "Python"
+        },
+        {
+          "title": "Find Maximum Element",
+          "description": "Find the largest element in a list.",
+          "sampleInput": "10 50 20 40",
+          "sampleOutput": "50",
+          "language": "Python"
+        },
+        {
+          "title": "Count Elements",
+          "description": "Count the number of elements in a list.",
+          "sampleInput": "1 2 3 4 5",
+          "sampleOutput": "5",
+          "language": "Python"
+        },
+        {
+          "title": "Binary Search",
+          "description": "Implement binary search on a sorted list.",
+          "sampleInput": "10 20 30 40 50\n40",
+          "sampleOutput": "Found",
+          "language": "Python"
+        },
+        {
+          "title": "Selection Sort",
+          "description": "Sort a list using selection sort.",
+          "sampleInput": "5 3 1 4 2",
+          "sampleOutput": "1 2 3 4 5",
+          "language": "Python"
+        }
+      ]
+    },
+
+    "python-variables-operators": {
+      "codingPractice": [
+        {
+          "title": "Add Two Numbers",
+          "description": "Read two numbers and display their sum.",
+          "sampleInput": "10 20",
+          "sampleOutput": "30",
+          "language": "Python"
+        },
+        {
+          "title": "Find Product",
+          "description": "Read two numbers and display their product.",
+          "sampleInput": "5 4",
+          "sampleOutput": "20",
+          "language": "Python"
+        },
+        {
+          "title": "Find Quotient",
+          "description": "Divide two numbers and display the result.",
+          "sampleInput": "20 5",
+          "sampleOutput": "4",
+          "language": "Python"
+        },
+        {
+          "title": "Find Remainder",
+          "description": "Display the remainder using modulus operator.",
+          "sampleInput": "17 5",
+          "sampleOutput": "2",
+          "language": "Python"
+        },
+        {
+          "title": "Calculate Average",
+          "description": "Find the average of three numbers.",
+          "sampleInput": "10 20 30",
+          "sampleOutput": "20",
+          "language": "Python"
+        }
+      ]
+    },
+
+  "control-structures": {
+    "codingPractice": [
+      {
+        "title": "Check Even or Odd",
+        "description": "Use an if statement to determine whether a number is even or odd.",
+        "sampleInput": "12",
+        "sampleOutput": "Even",
+        "language": "Python"
+      },
+      {
+        "title": "Largest of Three Numbers",
+        "description": "Find the largest among three numbers using conditional statements.",
+        "sampleInput": "10 25 15",
+        "sampleOutput": "25",
+        "language": "Python"
+      },
+      {
+        "title": "Grade Calculator",
+        "description": "Display grade based on marks entered by the user.",
+        "sampleInput": "85",
+        "sampleOutput": "A",
+        "language": "Python"
+      },
+      {
+        "title": "Multiplication Table",
+        "description": "Generate the multiplication table for a given number using a loop.",
+        "sampleInput": "5",
+        "sampleOutput": "5 10 15 20 25 30 35 40 45 50",
+        "language": "Python"
+      },
+      {
+        "title": "Factorial Using Loop",
+        "description": "Calculate factorial of a number using iteration.",
+        "sampleInput": "5",
+        "sampleOutput": "120",
+        "language": "Python"
+      }
+    ]
+  },
+
+  "python-functions": {
+    "codingPractice": [
+      {
+        "title": "Welcome Function",
+        "description": "Create a function that prints Welcome.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Welcome",
+        "language": "Python"
+      },
+      {
+        "title": "Addition Function",
+        "description": "Create a function that returns the sum of two numbers.",
+        "sampleInput": "20 30",
+        "sampleOutput": "50",
+        "language": "Python"
+      },
+      {
+        "title": "Find Cube",
+        "description": "Create a function that returns the cube of a number.",
+        "sampleInput": "3",
+        "sampleOutput": "27",
+        "language": "Python"
+      },
+      {
+        "title": "Check Prime Number",
+        "description": "Create a function to check whether a number is prime.",
+        "sampleInput": "7",
+        "sampleOutput": "Prime",
+        "language": "Python"
+      },
+      {
+        "title": "Find Minimum",
+        "description": "Create a function that returns the smallest of two numbers.",
+        "sampleInput": "12 8",
+        "sampleOutput": "8",
+        "language": "Python"
+      }
+    ]
+  },
+
+  "strings-manipulation": {
+    "codingPractice": [
+      {
+        "title": "Count Characters",
+        "description": "Find the length of a string.",
+        "sampleInput": "Python",
+        "sampleOutput": "6",
+        "language": "Python"
+      },
+      {
+        "title": "Convert to Uppercase",
+        "description": "Convert a string to uppercase.",
+        "sampleInput": "python",
+        "sampleOutput": "PYTHON",
+        "language": "Python"
+      },
+      {
+        "title": "Reverse a String",
+        "description": "Display the reverse of a string.",
+        "sampleInput": "Python",
+        "sampleOutput": "nohtyP",
+        "language": "Python"
+      },
+      {
+        "title": "Count Vowels",
+        "description": "Count the number of vowels in a string.",
+        "sampleInput": "Computer",
+        "sampleOutput": "3",
+        "language": "Python"
+      },
+      {
+        "title": "Palindrome Check",
+        "description": "Check whether a string is a palindrome.",
+        "sampleInput": "madam",
+        "sampleOutput": "Palindrome",
+        "language": "Python"
+      }
+    ]
+  },
+
+  "lists-sets-tuples-dictionary": {
+    "codingPractice": [
+      {
+        "title": "List Sum",
+        "description": "Find the sum of all elements in a list.",
+        "sampleInput": "10 20 30 40",
+        "sampleOutput": "100",
+        "language": "Python"
+      },
+      {
+        "title": "Largest List Element",
+        "description": "Find the largest element in a list.",
+        "sampleInput": "10 50 20 40",
+        "sampleOutput": "50",
+        "language": "Python"
+      },
+      {
+        "title": "Tuple Display",
+        "description": "Create and display a tuple.",
+        "sampleInput": "1 2 3",
+        "sampleOutput": "(1, 2, 3)",
+        "language": "Python"
+      },
+      {
+        "title": "Set Unique Values",
+        "description": "Remove duplicate values using a set.",
+        "sampleInput": "1 2 2 3 3 4",
+        "sampleOutput": "{1, 2, 3, 4}",
+        "language": "Python"
+      },
+      {
+        "title": "Dictionary Lookup",
+        "description": "Store student details in a dictionary and display a value.",
+        "sampleInput": "name:Siva",
+        "sampleOutput": "Siva",
+        "language": "Python"
+      }
+    ]
+  },
+
+  "python-classes-objects": {
+    "codingPractice": [
+      {
+        "title": "Student Class",
+        "description": "Create a Student class and display student details using an object.",
+        "sampleInput": "Siva 101",
+        "sampleOutput": "Siva 101",
+        "language": "Python"
+      },
+      {
+        "title": "Employee Constructor",
+        "description": "Create an Employee class using a constructor.",
+        "sampleInput": "1001 Arun",
+        "sampleOutput": "1001 Arun",
+        "language": "Python"
+      },
+      {
+        "title": "Rectangle Area",
+        "description": "Create a Rectangle class and calculate area using a method.",
+        "sampleInput": "10 5",
+        "sampleOutput": "50",
+        "language": "Python"
+      },
+      {
+        "title": "Bank Account Class",
+        "description": "Create a BankAccount class and display balance.",
+        "sampleInput": "5000",
+        "sampleOutput": "5000",
+        "language": "Python"
+      },
+      {
+        "title": "Car Object",
+        "description": "Create a Car class and display car details.",
+        "sampleInput": "Toyota Innova",
+        "sampleOutput": "Toyota Innova",
+        "language": "Python"
+      }
+    ]
+  },
+
+  "database-concepts": {
+    "codingPractice": [
+      {
+        "title": "Student Record Dictionary",
+        "description": "Store student details using a dictionary and display them.",
+        "sampleInput": "101 Siva",
+        "sampleOutput": "{'id': 101, 'name': 'Siva'}",
+        "language": "Python"
+      },
+      {
+        "title": "Employee Database",
+        "description": "Create a list of employee records and display all records.",
+        "sampleInput": "2 Employees",
+        "sampleOutput": "Employee Records Displayed",
+        "language": "Python"
+      },
+      {
+        "title": "Search Student Record",
+        "description": "Search for a student name in stored records.",
+        "sampleInput": "Siva",
+        "sampleOutput": "Record Found",
+        "language": "Python"
+      },
+      {
+        "title": "Count Records",
+        "description": "Count the number of records stored in a list.",
+        "sampleInput": "5 Records",
+        "sampleOutput": "5",
+        "language": "Python"
+      },
+      {
+        "title": "Display Database Fields",
+        "description": "Display all keys in a student record dictionary.",
+        "sampleInput": "Student Record",
+        "sampleOutput": "id, name",
+        "language": "Python"
+      }
+    ]
+  },
+
+  "sql": {
+    "codingPractice": [
+      {
+        "title": "Create Table Query",
+        "description": "Write an SQL query to create a Student table.",
+        "sampleInput": "No Input",
+        "sampleOutput": "CREATE TABLE Student (...);",
+        "language": "SQL"
+      },
+      {
+        "title": "Insert Record",
+        "description": "Write an SQL query to insert a record into Student table.",
+        "sampleInput": "101, Siva",
+        "sampleOutput": "INSERT INTO Student VALUES (101,'Siva');",
+        "language": "SQL"
+      },
+      {
+        "title": "Select All Records",
+        "description": "Write an SQL query to display all records from Student table.",
+        "sampleInput": "No Input",
+        "sampleOutput": "SELECT * FROM Student;",
+        "language": "SQL"
+      },
+      {
+        "title": "Filter Records",
+        "description": "Write an SQL query to display students with marks greater than 80.",
+        "sampleInput": "No Input",
+        "sampleOutput": "SELECT * FROM Student WHERE marks > 80;",
+        "language": "SQL"
+      },
+      {
+        "title": "Delete Record",
+        "description": "Write an SQL query to delete a student record.",
+        "sampleInput": "101",
+        "sampleOutput": "DELETE FROM Student WHERE id = 101;",
+        "language": "SQL"
+      }
+    ]
+  },
+
+  "python-csv-files": {
+    "codingPractice": [
+      {
+        "title": "Write CSV File",
+        "description": "Write student details into a CSV file.",
+        "sampleInput": "101,Siva",
+        "sampleOutput": "Record Written",
+        "language": "Python"
+      },
+      {
+        "title": "Read CSV File",
+        "description": "Read and display all records from a CSV file.",
+        "sampleInput": "students.csv",
+        "sampleOutput": "Records Displayed",
+        "language": "Python"
+      },
+      {
+        "title": "Count CSV Records",
+        "description": "Count the number of rows in a CSV file.",
+        "sampleInput": "students.csv",
+        "sampleOutput": "5",
+        "language": "Python"
+      },
+      {
+        "title": "Search CSV Record",
+        "description": "Search for a student name in a CSV file.",
+        "sampleInput": "Siva",
+        "sampleOutput": "Record Found",
+        "language": "Python"
+      },
+      {
+        "title": "Append CSV Data",
+        "description": "Add a new record to an existing CSV file.",
+        "sampleInput": "102,Arun",
+        "sampleOutput": "Record Added",
+        "language": "Python"
+      }
+    ]
+  },
+
+  "importing-cpp-python": {
+    "codingPractice": [
+      {
+        "title": "Import Math Module",
+        "description": "Import Python's math module and find square root.",
+        "sampleInput": "25",
+        "sampleOutput": "5.0",
+        "language": "Python"
+      },
+      {
+        "title": "Import Random Module",
+        "description": "Generate a random number using random module.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Random Number",
+        "language": "Python"
+      },
+      {
+        "title": "Create Custom Module",
+        "description": "Create and import a custom Python module.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Module Imported Successfully",
+        "language": "Python"
+      },
+      {
+        "title": "Use Functions from Module",
+        "description": "Import and call a function from another file.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Function Executed",
+        "language": "Python"
+      },
+      {
+        "title": "Display Module Name",
+        "description": "Print the name of an imported module.",
+        "sampleInput": "math",
+        "sampleOutput": "math",
+        "language": "Python"
+      }
+    ]
+  },
+
+  "data-manipulation-sql": {
+    "codingPractice": [
+      {
+        "title": "Insert Student Record",
+        "description": "Write an SQL query to insert a new student record.",
+        "sampleInput": "101,Siva",
+        "sampleOutput": "INSERT INTO Student VALUES (101,'Siva');",
+        "language": "SQL"
+      },
+      {
+        "title": "Update Student Marks",
+        "description": "Write an SQL query to update marks of a student.",
+        "sampleInput": "101,95",
+        "sampleOutput": "UPDATE Student SET marks = 95 WHERE id = 101;",
+        "language": "SQL"
+      },
+      {
+        "title": "Delete Student Record",
+        "description": "Write an SQL query to delete a student record.",
+        "sampleInput": "101",
+        "sampleOutput": "DELETE FROM Student WHERE id = 101;",
+        "language": "SQL"
+      },
+      {
+        "title": "Display Top Students",
+        "description": "Write an SQL query to display students scoring above 90 marks.",
+        "sampleInput": "No Input",
+        "sampleOutput": "SELECT * FROM Student WHERE marks > 90;",
+        "language": "SQL"
+      },
+      {
+        "title": "Count Records",
+        "description": "Write an SQL query to count total student records.",
+        "sampleInput": "No Input",
+        "sampleOutput": "SELECT COUNT(*) FROM Student;",
+        "language": "SQL"
+      }
+    ]
+  },
+
+  {
+  "data-visualization-pyplot": {
+    "codingPractice": [
+      {
+        "title": "Simple Line Chart",
+        "description": "Write a Python program using matplotlib.pyplot to draw a line chart for the values 1, 2, 3, 4, 5.",
+        "sampleInput": "1 2 3 4 5",
+        "sampleOutput": "Line Chart Displayed",
+        "language": "Python"
+      },
+      {
+        "title": "Bar Chart of Student Marks",
+        "description": "Create a bar chart to display marks of five students using pyplot.",
+        "sampleInput": "75 80 90 85 95",
+        "sampleOutput": "Bar Chart Displayed",
+        "language": "Python"
+      },
+      {
+        "title": "Pie Chart Example",
+        "description": "Create a pie chart showing the percentage of students in different groups.",
+        "sampleInput": "40 30 20 10",
+        "sampleOutput": "Pie Chart Displayed",
+        "language": "Python"
+      },
+      {
+        "title": "Plot Sine Wave",
+        "description": "Use pyplot to plot a sine wave graph.",
+        "sampleInput": "0 to 360 degrees",
+        "sampleOutput": "Sine Wave Graph Displayed",
+        "language": "Python"
+      },
+      {
+        "title": "Multiple Line Graph",
+        "description": "Plot two lines on the same graph and add a legend.",
+        "sampleInput": "Line1: 1 2 3 4\nLine2: 2 4 6 8",
+        "sampleOutput": "Multiple Line Graph Displayed",
+        "language": "Python"
+      }
+    ]
   }
+  } 
 }
