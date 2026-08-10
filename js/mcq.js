@@ -25,8 +25,8 @@ const chapterId = params.get("chapter");
 
 const jsonFile =
     studentClass === "11" ?
-    "eleventh.json" :
-    "twelfth.json";
+    "json/eleventh.json" :
+    "json/twelfth.json";
 
 
 
