@@ -91,7 +91,7 @@ for (let chapter of chaptersEleven) {
 
 
     listElement.href =
-        `coading.html?class=11&chapter=${chapter.id}`;
+        `coding.html?class=11&chapter=${chapter.id}`;
 
 
     chapterView.appendChild(listElement);
