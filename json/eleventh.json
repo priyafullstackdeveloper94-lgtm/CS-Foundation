@@ -1689,8 +1689,1356 @@
     ]
   },
 
+"functions": {
+    "summary": [
+      {
+        "heading": "Functions",
+        "content": "A function is a self-contained block of statements that performs a specific task. Functions help in breaking a large program into smaller manageable modules."
+      },
+      {
+        "heading": "Advantages of Functions",
+        "content": "Functions improve program readability, reduce code duplication, simplify debugging, and promote code reusability."
+      },
+      {
+        "heading": "Function Declaration",
+        "content": "Function declaration informs the compiler about the function name, return type, and parameters before its actual definition."
+      },
+      {
+        "heading": "Function Definition",
+        "content": "Function definition contains the actual statements that perform the task assigned to the function."
+      },
+      {
+        "heading": "Function Call",
+        "content": "A function call transfers program control to the specified function for execution."
+      },
+      {
+        "heading": "Function Parameters",
+        "content": "Parameters are variables used in function definitions to receive values from the calling function."
+      },
+      {
+        "heading": "Actual and Formal Parameters",
+        "content": "Actual parameters are values passed during function calls, while formal parameters receive those values in the function definition."
+      },
+      {
+        "heading": "Return Statement",
+        "content": "The return statement sends a value back to the calling function and terminates function execution."
+      },
+      {
+        "heading": "Types of Functions",
+        "content": "Functions can be classified based on whether they accept arguments and whether they return values."
+      },
+      {
+        "heading": "Library Functions and User-Defined Functions",
+        "content": "Library functions are predefined functions provided by C++, whereas user-defined functions are created by programmers."
+      }
+    ],
 
+    "twoMark": [
+      {
+        "question": "What is a function?",
+        "answer": "A function is a block of statements that performs a specific task."
+      },
+      {
+        "question": "Why are functions used?",
+        "answer": "Functions are used to reduce code repetition and improve program organization."
+      },
+      {
+        "question": "What is a function declaration?",
+        "answer": "A function declaration specifies the name, return type, and parameters of a function."
+      },
+      {
+        "question": "What is a function definition?",
+        "answer": "A function definition contains the actual implementation of the function."
+      },
+      {
+        "question": "What is a function call?",
+        "answer": "A function call invokes a function for execution."
+      },
+      {
+        "question": "What are formal parameters?",
+        "answer": "Formal parameters are variables that receive values from actual parameters."
+      },
+      {
+        "question": "What are actual parameters?",
+        "answer": "Actual parameters are values passed to a function during a function call."
+      },
+      {
+        "question": "What is a return statement?",
+        "answer": "A return statement sends a value back to the calling function."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain the advantages of functions.",
+        "answer": "Functions reduce code duplication, improve readability, simplify testing, and increase code reusability."
+      },
+      {
+        "question": "Differentiate between function declaration and function definition.",
+        "answer": "Function declaration specifies the function prototype, whereas function definition contains the executable code."
+      },
+      {
+        "question": "Differentiate between actual and formal parameters.",
+        "answer": "Actual parameters are values supplied during function calls, while formal parameters receive those values within the function."
+      },
+      {
+        "question": "Explain function call.",
+        "answer": "A function call transfers control to a function, executes its statements, and returns control back to the calling program."
+      },
+      {
+        "question": "What are library functions?",
+        "answer": "Library functions are predefined functions provided by the C++ standard library."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain functions and their advantages.",
+        "answer": "A function is a reusable block of code designed to perform a specific task. Functions improve modularity, reduce code repetition, simplify debugging, enhance readability, and support code reuse."
+      },
+      {
+        "question": "Describe the components of a function.",
+        "answer": "A function consists of a declaration, definition, parameters, return type, function body, and function call. Together they enable modular programming."
+      },
+      {
+        "question": "Explain actual and formal parameters with examples.",
+        "answer": "Actual parameters are values supplied during a function call. Formal parameters are variables in the function definition that receive those values for processing."
+      },
+      {
+        "question": "Explain the different types of functions.",
+        "answer": "Functions may have no arguments and no return value, arguments but no return value, no arguments but a return value, or both arguments and a return value."
+      },
+      {
+        "question": "Differentiate between library functions and user-defined functions.",
+        "answer": "Library functions are predefined and provided by C++, whereas user-defined functions are created by programmers to meet specific requirements."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "A function is used to?",
+        "answer": "Perform a specific task"
+      },
+      {
+        "question": "Which statement returns a value from a function?",
+        "answer": "return"
+      },
+      {
+        "question": "Which parameters receive values?",
+        "answer": "Formal Parameters"
+      },
+      {
+        "question": "Which parameters supply values?",
+        "answer": "Actual Parameters"
+      },
+      {
+        "question": "What is the first step before using a function?",
+        "answer": "Function Declaration"
+      },
+      {
+        "question": "Which type of function is provided by C++?",
+        "answer": "Library Function"
+      },
+      {
+        "question": "Functions improve?",
+        "answer": "Code Reusability"
+      },
+      {
+        "question": "Which keyword sends a value back?",
+        "answer": "return"
+      },
+      {
+        "question": "A function call transfers control to?",
+        "answer": "Function"
+      },
+      {
+        "question": "Functions support?",
+        "answer": "Modular Programming"
+      }
+    ]
+  },
   
-  
-  
+  "oops-techniques": {
+    "summary": [
+      {
+        "heading": "Object Oriented Programming",
+        "content": "Object Oriented Programming (OOP) is a programming paradigm that organizes software design around objects rather than functions and logic."
+      },
+      {
+        "heading": "Class",
+        "content": "A class is a blueprint or template used to create objects. It defines the properties and behaviors of objects."
+      },
+      {
+        "heading": "Object",
+        "content": "An object is an instance of a class that contains data and methods to manipulate that data."
+      },
+      {
+        "heading": "Encapsulation",
+        "content": "Encapsulation is the process of combining data and functions into a single unit called a class while restricting direct access to data."
+      },
+      {
+        "heading": "Data Hiding",
+        "content": "Data hiding protects data from unauthorized access by restricting direct access to class members."
+      },
+      {
+        "heading": "Abstraction",
+        "content": "Abstraction hides implementation details and displays only the essential features of an object."
+      },
+      {
+        "heading": "Inheritance",
+        "content": "Inheritance allows a class to acquire the properties and methods of another class, promoting code reusability."
+      },
+      {
+        "heading": "Polymorphism",
+        "content": "Polymorphism allows a single interface to represent different forms of behavior."
+      },
+      {
+        "heading": "Advantages of OOP",
+        "content": "OOP improves modularity, reusability, maintainability, security, and scalability of software systems."
+      },
+      {
+        "heading": "Applications of OOP",
+        "content": "OOP is widely used in software development, game development, GUI applications, and database systems."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is Object Oriented Programming?",
+        "answer": "Object Oriented Programming is a programming approach based on objects and classes."
+      },
+      {
+        "question": "What is a class?",
+        "answer": "A class is a blueprint used to create objects."
+      },
+      {
+        "question": "What is an object?",
+        "answer": "An object is an instance of a class."
+      },
+      {
+        "question": "What is encapsulation?",
+        "answer": "Encapsulation is the process of combining data and methods into a single unit."
+      },
+      {
+        "question": "What is data hiding?",
+        "answer": "Data hiding restricts direct access to class data."
+      },
+      {
+        "question": "What is abstraction?",
+        "answer": "Abstraction hides unnecessary implementation details and shows only essential features."
+      },
+      {
+        "question": "What is inheritance?",
+        "answer": "Inheritance allows one class to acquire the properties and methods of another class."
+      },
+      {
+        "question": "What is polymorphism?",
+        "answer": "Polymorphism allows one interface to represent multiple forms."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain class and object.",
+        "answer": "A class is a blueprint that defines properties and methods, while an object is an instance of a class."
+      },
+      {
+        "question": "Explain encapsulation.",
+        "answer": "Encapsulation combines data and methods into a single unit and protects data from unauthorized access."
+      },
+      {
+        "question": "What is abstraction in OOP?",
+        "answer": "Abstraction hides implementation details and exposes only the necessary features of an object."
+      },
+      {
+        "question": "Explain inheritance.",
+        "answer": "Inheritance allows a new class to derive properties and methods from an existing class."
+      },
+      {
+        "question": "List the advantages of OOP.",
+        "answer": "OOP provides modularity, code reusability, maintainability, security, and scalability."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain the basic concepts of Object Oriented Programming.",
+        "answer": "The basic concepts of OOP are class, object, encapsulation, abstraction, inheritance, and polymorphism. These concepts help in developing modular and reusable software."
+      },
+      {
+        "question": "Explain encapsulation and abstraction.",
+        "answer": "Encapsulation combines data and methods into a single unit while restricting direct access. Abstraction hides implementation details and exposes only essential features."
+      },
+      {
+        "question": "Describe inheritance and its advantages.",
+        "answer": "Inheritance enables one class to acquire properties and methods from another class. It promotes code reuse, reduces redundancy, and improves maintainability."
+      },
+      {
+        "question": "Explain polymorphism with its benefits.",
+        "answer": "Polymorphism allows a single interface to represent multiple behaviors. It improves flexibility and extensibility in software design."
+      },
+      {
+        "question": "Discuss the advantages of Object Oriented Programming.",
+        "answer": "OOP enhances code reusability, modularity, maintainability, security, scalability, and simplifies software development."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "OOP stands for?",
+        "answer": "Object Oriented Programming"
+      },
+      {
+        "question": "A blueprint for creating objects is called?",
+        "answer": "Class"
+      },
+      {
+        "question": "An instance of a class is called?",
+        "answer": "Object"
+      },
+      {
+        "question": "Which concept combines data and methods?",
+        "answer": "Encapsulation"
+      },
+      {
+        "question": "Which concept hides implementation details?",
+        "answer": "Abstraction"
+      },
+      {
+        "question": "Which concept promotes code reusability?",
+        "answer": "Inheritance"
+      },
+      {
+        "question": "Which concept allows multiple forms?",
+        "answer": "Polymorphism"
+      },
+      {
+        "question": "Data hiding improves?",
+        "answer": "Security"
+      },
+      {
+        "question": "OOP improves?",
+        "answer": "Maintainability"
+      },
+      {
+        "question": "Which OOP concept allows one class to derive from another?",
+        "answer": "Inheritance"
+      }
+    ]
+  },
+
+  "arrays-and-structures": {
+    "summary": [
+      {
+        "heading": "Arrays and Structures",
+        "content": "Arrays and structures are important data organization techniques used in C++ to store and manage collections of data efficiently."
+      },
+      {
+        "heading": "Array",
+        "content": "An array is a collection of elements of the same data type stored in contiguous memory locations under a single name."
+      },
+      {
+        "heading": "Need for Arrays",
+        "content": "Arrays help store multiple values of the same type using a single variable name, reducing the need for multiple variables."
+      },
+      {
+        "heading": "One-Dimensional Array",
+        "content": "A one-dimensional array stores elements in a linear sequence and is accessed using a single index."
+      },
+      {
+        "heading": "Array Declaration",
+        "content": "Arrays are declared by specifying the data type, array name, and size of the array."
+      },
+      {
+        "heading": "Array Initialization",
+        "content": "Array initialization assigns values to array elements at the time of declaration."
+      },
+      {
+        "heading": "Structure",
+        "content": "A structure is a user-defined data type that groups variables of different data types under a single name."
+      },
+      {
+        "heading": "Need for Structures",
+        "content": "Structures are used to represent records containing different types of related information."
+      },
+      {
+        "heading": "Structure Declaration",
+        "content": "A structure is declared using the struct keyword followed by member variables."
+      },
+      {
+        "heading": "Applications of Arrays and Structures",
+        "content": "Arrays and structures are widely used in databases, student records, employee management systems, and scientific applications."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is an array?",
+        "answer": "An array is a collection of elements of the same data type stored under a single name."
+      },
+      {
+        "question": "What is a one-dimensional array?",
+        "answer": "A one-dimensional array stores elements in a linear sequence using a single index."
+      },
+      {
+        "question": "Why are arrays used?",
+        "answer": "Arrays are used to store multiple values of the same data type efficiently."
+      },
+      {
+        "question": "What is a structure?",
+        "answer": "A structure is a user-defined data type that groups variables of different data types."
+      },
+      {
+        "question": "Which keyword is used to declare a structure?",
+        "answer": "The struct keyword is used to declare a structure."
+      },
+      {
+        "question": "What is array initialization?",
+        "answer": "Array initialization is the process of assigning values to array elements during declaration."
+      },
+      {
+        "question": "What is an array index?",
+        "answer": "An array index is a position number used to access an array element."
+      },
+      {
+        "question": "What is a structure member?",
+        "answer": "A structure member is a variable declared inside a structure."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain arrays.",
+        "answer": "Arrays are collections of similar data items stored in contiguous memory locations and accessed using indexes."
+      },
+      {
+        "question": "Explain the advantages of arrays.",
+        "answer": "Arrays simplify data storage, reduce code complexity, and allow efficient processing of multiple values."
+      },
+      {
+        "question": "What is a structure in C++?",
+        "answer": "A structure is a user-defined data type used to store related data items of different data types."
+      },
+      {
+        "question": "Differentiate between arrays and structures.",
+        "answer": "Arrays store similar data types, whereas structures store different data types under one name."
+      },
+      {
+        "question": "Explain structure members.",
+        "answer": "Structure members are variables declared inside a structure and accessed using the dot operator."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain arrays and their advantages.",
+        "answer": "Arrays are collections of similar data items stored under a single name. They simplify data management, reduce the need for multiple variables, and allow efficient processing of large datasets."
+      },
+      {
+        "question": "Describe one-dimensional arrays.",
+        "answer": "A one-dimensional array stores data elements in a linear sequence. Elements are accessed using indexes starting from zero."
+      },
+      {
+        "question": "Explain structures and their importance.",
+        "answer": "Structures are user-defined data types that group related variables of different data types. They are useful for representing records such as students and employees."
+      },
+      {
+        "question": "Differentiate between arrays and structures.",
+        "answer": "Arrays store homogeneous data, while structures store heterogeneous data. Arrays use indexes for access, whereas structures use member names."
+      },
+      {
+        "question": "Discuss applications of arrays and structures.",
+        "answer": "Arrays are used in data processing and scientific calculations. Structures are used in record management systems such as student databases and payroll systems."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "An array stores?",
+        "answer": "Similar data types"
+      },
+      {
+        "question": "Array elements are accessed using?",
+        "answer": "Index"
+      },
+      {
+        "question": "The first index of an array is?",
+        "answer": "0"
+      },
+      {
+        "question": "Which keyword is used to declare a structure?",
+        "answer": "struct"
+      },
+      {
+        "question": "A structure can store?",
+        "answer": "Different data types"
+      },
+      {
+        "question": "Array elements are stored in?",
+        "answer": "Contiguous memory locations"
+      },
+      {
+        "question": "Which operator is used to access structure members?",
+        "answer": "Dot Operator"
+      },
+      {
+        "question": "Arrays reduce the need for?",
+        "answer": "Multiple Variables"
+      },
+      {
+        "question": "Structures are useful for?",
+        "answer": "Record Management"
+      },
+      {
+        "question": "Arrays and structures are used for?",
+        "answer": "Data Organization"
+      }
+    ]
+  },
+
+   "classes-and-objects": {
+    "summary": [
+      {
+        "heading": "Classes and Objects",
+        "content": "Classes and objects are the fundamental concepts of Object Oriented Programming. They help organize data and functions into reusable units."
+      },
+      {
+        "heading": "Class",
+        "content": "A class is a user-defined data type that acts as a blueprint for creating objects. It contains data members and member functions."
+      },
+      {
+        "heading": "Object",
+        "content": "An object is an instance of a class. It occupies memory and can access the members defined in the class."
+      },
+      {
+        "heading": "Data Members",
+        "content": "Data members are variables declared inside a class that store information related to an object."
+      },
+      {
+        "heading": "Member Functions",
+        "content": "Member functions are functions defined within a class that operate on the data members."
+      },
+      {
+        "heading": "Access Specifiers",
+        "content": "Access specifiers control the visibility of class members. The common access specifiers are public, private, and protected."
+      },
+      {
+        "heading": "Public Access Specifier",
+        "content": "Members declared as public can be accessed from anywhere in the program."
+      },
+      {
+        "heading": "Private Access Specifier",
+        "content": "Members declared as private can only be accessed within the class."
+      },
+      {
+        "heading": "Creating Objects",
+        "content": "Objects are created by declaring variables of a class type."
+      },
+      {
+        "heading": "Advantages of Classes and Objects",
+        "content": "Classes and objects improve modularity, security, reusability, maintainability, and real-world modeling."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is a class?",
+        "answer": "A class is a blueprint used to create objects."
+      },
+      {
+        "question": "What is an object?",
+        "answer": "An object is an instance of a class."
+      },
+      {
+        "question": "What are data members?",
+        "answer": "Data members are variables declared inside a class."
+      },
+      {
+        "question": "What are member functions?",
+        "answer": "Member functions are functions defined within a class."
+      },
+      {
+        "question": "What is an access specifier?",
+        "answer": "An access specifier controls the accessibility of class members."
+      },
+      {
+        "question": "Name the common access specifiers.",
+        "answer": "Public, Private, and Protected."
+      },
+      {
+        "question": "What is a public member?",
+        "answer": "A public member can be accessed from anywhere in the program."
+      },
+      {
+        "question": "What is a private member?",
+        "answer": "A private member can only be accessed within the class."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain class and object.",
+        "answer": "A class is a blueprint that defines properties and behaviors, while an object is an instance of that class."
+      },
+      {
+        "question": "What are data members and member functions?",
+        "answer": "Data members store object data, while member functions perform operations on that data."
+      },
+      {
+        "question": "Explain access specifiers.",
+        "answer": "Access specifiers determine the visibility of class members. Common specifiers are public, private, and protected."
+      },
+      {
+        "question": "How are objects created?",
+        "answer": "Objects are created by declaring variables of a class type."
+      },
+      {
+        "question": "List the advantages of classes.",
+        "answer": "Classes improve modularity, security, reusability, and maintainability."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain classes and objects in detail.",
+        "answer": "A class is a user-defined data type that serves as a blueprint for creating objects. An object is an instance of a class that contains actual values and can access class members. Together they form the foundation of Object Oriented Programming."
+      },
+      {
+        "question": "Explain data members and member functions.",
+        "answer": "Data members are variables that store information about an object, while member functions perform operations on the data. They work together to represent the characteristics and behaviors of objects."
+      },
+      {
+        "question": "Describe access specifiers in C++.",
+        "answer": "Access specifiers control access to class members. Public members are accessible from outside the class, private members are accessible only within the class, and protected members are accessible within the class and derived classes."
+      },
+      {
+        "question": "Explain the process of creating and using objects.",
+        "answer": "Objects are created by declaring variables of a class type. Once created, they can access public data members and member functions using the dot operator."
+      },
+      {
+        "question": "Discuss the advantages of classes and objects.",
+        "answer": "Classes and objects provide modularity, data security, code reusability, maintainability, and support real-world modeling in software development."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "A class is a?",
+        "answer": "Blueprint"
+      },
+      {
+        "question": "An object is an instance of?",
+        "answer": "Class"
+      },
+      {
+        "question": "Which members store data?",
+        "answer": "Data Members"
+      },
+      {
+        "question": "Which members perform operations?",
+        "answer": "Member Functions"
+      },
+      {
+        "question": "Which access specifier allows access from anywhere?",
+        "answer": "Public"
+      },
+      {
+        "question": "Which access specifier restricts access within the class?",
+        "answer": "Private"
+      },
+      {
+        "question": "Objects are created from?",
+        "answer": "Classes"
+      },
+      {
+        "question": "Which operator is used to access object members?",
+        "answer": "Dot Operator"
+      },
+      {
+        "question": "Classes improve?",
+        "answer": "Code Reusability"
+      },
+      {
+        "question": "Classes and objects belong to?",
+        "answer": "Object Oriented Programming"
+      }
+    ]
+  },
+
+
+  "polymorphism": {
+    "summary": [
+      {
+        "heading": "Polymorphism",
+        "content": "Polymorphism is one of the fundamental concepts of Object Oriented Programming that allows the same function or operator to perform different tasks depending on the context."
+      },
+      {
+        "heading": "Meaning of Polymorphism",
+        "content": "The word polymorphism is derived from two Greek words: 'Poly' meaning many and 'Morph' meaning forms. It means one interface with multiple forms."
+      },
+      {
+        "heading": "Need for Polymorphism",
+        "content": "Polymorphism improves flexibility, reusability, and maintainability of programs by allowing a single interface to represent different behaviors."
+      },
+      {
+        "heading": "Types of Polymorphism",
+        "content": "Polymorphism is generally classified into compile-time polymorphism and run-time polymorphism."
+      },
+      {
+        "heading": "Compile-Time Polymorphism",
+        "content": "Compile-time polymorphism is achieved through function overloading and operator overloading. The method to be executed is determined during compilation."
+      },
+      {
+        "heading": "Function Overloading",
+        "content": "Function overloading allows multiple functions with the same name but different parameter lists."
+      },
+      {
+        "heading": "Operator Overloading",
+        "content": "Operator overloading allows operators to be used for user-defined data types with customized behavior."
+      },
+      {
+        "heading": "Run-Time Polymorphism",
+        "content": "Run-time polymorphism is achieved through inheritance and virtual functions. The method to be executed is determined during program execution."
+      },
+      {
+        "heading": "Advantages of Polymorphism",
+        "content": "Polymorphism promotes code reuse, flexibility, scalability, and simplifies software development."
+      },
+      {
+        "heading": "Applications of Polymorphism",
+        "content": "Polymorphism is widely used in software frameworks, GUI applications, game development, and large-scale software systems."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is polymorphism?",
+        "answer": "Polymorphism is the ability of a single interface to represent multiple forms or behaviors."
+      },
+      {
+        "question": "What is the meaning of polymorphism?",
+        "answer": "Polymorphism means 'many forms'."
+      },
+      {
+        "question": "Name the types of polymorphism.",
+        "answer": "Compile-time polymorphism and run-time polymorphism."
+      },
+      {
+        "question": "What is function overloading?",
+        "answer": "Function overloading allows multiple functions with the same name but different parameters."
+      },
+      {
+        "question": "What is operator overloading?",
+        "answer": "Operator overloading gives special meanings to operators for user-defined data types."
+      },
+      {
+        "question": "What is compile-time polymorphism?",
+        "answer": "Compile-time polymorphism is resolved during compilation."
+      },
+      {
+        "question": "What is run-time polymorphism?",
+        "answer": "Run-time polymorphism is resolved during program execution."
+      },
+      {
+        "question": "State one advantage of polymorphism.",
+        "answer": "Polymorphism improves code reusability."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain polymorphism.",
+        "answer": "Polymorphism is an OOP concept that allows a single interface to perform different actions depending on the situation."
+      },
+      {
+        "question": "Explain compile-time polymorphism.",
+        "answer": "Compile-time polymorphism is achieved through function overloading and operator overloading, where the method is selected during compilation."
+      },
+      {
+        "question": "Explain run-time polymorphism.",
+        "answer": "Run-time polymorphism is achieved through inheritance and virtual functions, where the method is selected during execution."
+      },
+      {
+        "question": "What is function overloading?",
+        "answer": "Function overloading allows multiple functions with the same name but different parameter lists."
+      },
+      {
+        "question": "List the advantages of polymorphism.",
+        "answer": "Polymorphism increases flexibility, reusability, maintainability, and scalability of software."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain polymorphism and its importance.",
+        "answer": "Polymorphism is the ability of a single interface to represent multiple forms. It is an important OOP concept that improves flexibility, code reuse, maintainability, and software scalability."
+      },
+      {
+        "question": "Describe the types of polymorphism.",
+        "answer": "Polymorphism is classified into compile-time polymorphism and run-time polymorphism. Compile-time polymorphism is achieved through function and operator overloading, while run-time polymorphism is achieved through inheritance and virtual functions."
+      },
+      {
+        "question": "Explain function overloading with its advantages.",
+        "answer": "Function overloading allows multiple functions to share the same name with different parameter lists. It improves readability, flexibility, and code reuse."
+      },
+      {
+        "question": "Explain operator overloading.",
+        "answer": "Operator overloading enables operators to work with user-defined data types by assigning customized meanings to operators."
+      },
+      {
+        "question": "Discuss the advantages of polymorphism.",
+        "answer": "Polymorphism reduces code duplication, improves maintainability, enhances flexibility, promotes code reuse, and supports scalable software development."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Polymorphism means?",
+        "answer": "Many Forms"
+      },
+      {
+        "question": "Polymorphism is a feature of?",
+        "answer": "Object Oriented Programming"
+      },
+      {
+        "question": "Function overloading is an example of?",
+        "answer": "Compile-Time Polymorphism"
+      },
+      {
+        "question": "Operator overloading belongs to?",
+        "answer": "Compile-Time Polymorphism"
+      },
+      {
+        "question": "Run-time polymorphism is achieved through?",
+        "answer": "Inheritance"
+      },
+      {
+        "question": "Which type is resolved during execution?",
+        "answer": "Run-Time Polymorphism"
+      },
+      {
+        "question": "Which type is resolved during compilation?",
+        "answer": "Compile-Time Polymorphism"
+      },
+      {
+        "question": "Polymorphism improves?",
+        "answer": "Code Reusability"
+      },
+      {
+        "question": "The word 'Poly' means?",
+        "answer": "Many"
+      },
+      {
+        "question": "Polymorphism provides?",
+        "answer": "One Interface, Multiple Forms"
+      }
+    ]
+  },
+
+ "inheritance": {
+    "summary": [
+      {
+        "heading": "Inheritance",
+        "content": "Inheritance is one of the important features of Object Oriented Programming that allows a class to acquire the properties and methods of another class."
+      },
+      {
+        "heading": "Base Class",
+        "content": "The class whose members are inherited by another class is called the base class or parent class."
+      },
+      {
+        "heading": "Derived Class",
+        "content": "The class that inherits properties and methods from a base class is called the derived class or child class."
+      },
+      {
+        "heading": "Need for Inheritance",
+        "content": "Inheritance promotes code reusability, reduces redundancy, and simplifies software maintenance."
+      },
+      {
+        "heading": "Single Inheritance",
+        "content": "Single inheritance occurs when a derived class inherits from one base class."
+      },
+      {
+        "heading": "Multiple Inheritance",
+        "content": "Multiple inheritance occurs when a derived class inherits properties from more than one base class."
+      },
+      {
+        "heading": "Multilevel Inheritance",
+        "content": "Multilevel inheritance occurs when a class is derived from another derived class."
+      },
+      {
+        "heading": "Hierarchical Inheritance",
+        "content": "Hierarchical inheritance occurs when multiple derived classes inherit from a single base class."
+      },
+      {
+        "heading": "Hybrid Inheritance",
+        "content": "Hybrid inheritance is a combination of two or more inheritance types."
+      },
+      {
+        "heading": "Advantages of Inheritance",
+        "content": "Inheritance improves code reuse, maintainability, scalability, and supports the creation of organized software systems."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is inheritance?",
+        "answer": "Inheritance is the process by which one class acquires the properties and methods of another class."
+      },
+      {
+        "question": "What is a base class?",
+        "answer": "A base class is the class whose properties and methods are inherited by another class."
+      },
+      {
+        "question": "What is a derived class?",
+        "answer": "A derived class is the class that inherits from a base class."
+      },
+      {
+        "question": "Why is inheritance used?",
+        "answer": "Inheritance is used to promote code reusability and reduce duplication."
+      },
+      {
+        "question": "What is single inheritance?",
+        "answer": "Single inheritance is when one derived class inherits from one base class."
+      },
+      {
+        "question": "What is multiple inheritance?",
+        "answer": "Multiple inheritance is when a derived class inherits from more than one base class."
+      },
+      {
+        "question": "What is multilevel inheritance?",
+        "answer": "Multilevel inheritance is when a class is derived from another derived class."
+      },
+      {
+        "question": "State one advantage of inheritance.",
+        "answer": "Inheritance improves code reusability."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain inheritance.",
+        "answer": "Inheritance is an OOP feature that allows a class to inherit properties and methods from another class, promoting code reuse."
+      },
+      {
+        "question": "Differentiate between base class and derived class.",
+        "answer": "A base class provides properties and methods, whereas a derived class inherits and uses them."
+      },
+      {
+        "question": "Explain single inheritance.",
+        "answer": "Single inheritance occurs when a derived class inherits properties and methods from only one base class."
+      },
+      {
+        "question": "Explain multilevel inheritance.",
+        "answer": "Multilevel inheritance occurs when a derived class becomes the base class for another class."
+      },
+      {
+        "question": "List the advantages of inheritance.",
+        "answer": "Inheritance promotes code reuse, reduces redundancy, improves maintainability, and supports scalability."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain inheritance and its importance.",
+        "answer": "Inheritance is an OOP concept that allows one class to acquire the properties and methods of another class. It promotes code reuse, reduces development time, and simplifies maintenance."
+      },
+      {
+        "question": "Describe the different types of inheritance.",
+        "answer": "The major types of inheritance are single inheritance, multiple inheritance, multilevel inheritance, hierarchical inheritance, and hybrid inheritance."
+      },
+      {
+        "question": "Differentiate between base class and derived class.",
+        "answer": "A base class is the parent class that provides properties and methods, while a derived class inherits and extends those properties and methods."
+      },
+      {
+        "question": "Explain hierarchical and hybrid inheritance.",
+        "answer": "Hierarchical inheritance involves multiple derived classes inheriting from one base class. Hybrid inheritance combines multiple inheritance types into a single structure."
+      },
+      {
+        "question": "Discuss the advantages of inheritance.",
+        "answer": "Inheritance improves code reuse, reduces duplication, enhances maintainability, supports software scalability, and simplifies program development."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Inheritance is a feature of?",
+        "answer": "Object Oriented Programming"
+      },
+      {
+        "question": "The parent class is called?",
+        "answer": "Base Class"
+      },
+      {
+        "question": "The child class is called?",
+        "answer": "Derived Class"
+      },
+      {
+        "question": "Which inheritance uses one base class and one derived class?",
+        "answer": "Single Inheritance"
+      },
+      {
+        "question": "Which inheritance uses more than one base class?",
+        "answer": "Multiple Inheritance"
+      },
+      {
+        "question": "Which inheritance forms a chain of classes?",
+        "answer": "Multilevel Inheritance"
+      },
+      {
+        "question": "Which inheritance has one base class and many derived classes?",
+        "answer": "Hierarchical Inheritance"
+      },
+      {
+        "question": "Which inheritance combines different inheritance types?",
+        "answer": "Hybrid Inheritance"
+      },
+      {
+        "question": "Inheritance mainly promotes?",
+        "answer": "Code Reusability"
+      },
+      {
+        "question": "Inheritance reduces?",
+        "answer": "Code Redundancy"
+      }
+    ]
+  },
+
+   "computer-ethics-and-cyber-security": {
+    "summary": [
+      {
+        "heading": "Computer Ethics and Cyber Security",
+        "content": "Computer ethics and cyber security are important aspects of responsible computer usage. They help protect information and ensure ethical behavior in the digital world."
+      },
+      {
+        "heading": "Computer Ethics",
+        "content": "Computer ethics refers to the moral principles and standards that guide the use of computers and information technology."
+      },
+      {
+        "heading": "Importance of Computer Ethics",
+        "content": "Computer ethics promotes responsible use of technology, protects privacy, and prevents misuse of computer resources."
+      },
+      {
+        "heading": "Cyber Security",
+        "content": "Cyber security is the practice of protecting computer systems, networks, and data from unauthorized access, attacks, and damage."
+      },
+      {
+        "heading": "Cyber Crime",
+        "content": "Cyber crime refers to illegal activities performed using computers, networks, or the internet."
+      },
+      {
+        "heading": "Types of Cyber Crimes",
+        "content": "Common cyber crimes include hacking, identity theft, phishing, cyber bullying, software piracy, and online fraud."
+      },
+      {
+        "heading": "Hacking",
+        "content": "Hacking is the unauthorized access to computer systems or networks with the intention of stealing, modifying, or destroying data."
+      },
+      {
+        "heading": "Phishing",
+        "content": "Phishing is a cyber attack that attempts to steal sensitive information by pretending to be a trustworthy source."
+      },
+      {
+        "heading": "Cyber Safety Measures",
+        "content": "Strong passwords, antivirus software, firewalls, regular updates, and safe browsing practices help improve cyber security."
+      },
+      {
+        "heading": "Digital Responsibility",
+        "content": "Users must follow ethical practices, respect intellectual property rights, protect personal information, and use technology responsibly."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is computer ethics?",
+        "answer": "Computer ethics refers to the moral principles governing the use of computers and information technology."
+      },
+      {
+        "question": "What is cyber security?",
+        "answer": "Cyber security is the protection of computer systems, networks, and data from cyber threats."
+      },
+      {
+        "question": "What is cyber crime?",
+        "answer": "Cyber crime is any illegal activity performed using computers or the internet."
+      },
+      {
+        "question": "What is hacking?",
+        "answer": "Hacking is unauthorized access to a computer system or network."
+      },
+      {
+        "question": "What is phishing?",
+        "answer": "Phishing is an attempt to steal sensitive information through fraudulent communication."
+      },
+      {
+        "question": "Why is cyber security important?",
+        "answer": "Cyber security protects data, systems, and networks from unauthorized access and attacks."
+      },
+      {
+        "question": "What is software piracy?",
+        "answer": "Software piracy is the unauthorized copying, distribution, or use of software."
+      },
+      {
+        "question": "State one cyber safety measure.",
+        "answer": "Using strong passwords is an important cyber safety measure."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain computer ethics.",
+        "answer": "Computer ethics consists of moral guidelines that help users use computers responsibly, legally, and ethically."
+      },
+      {
+        "question": "Explain cyber security.",
+        "answer": "Cyber security protects computer systems, networks, and information from cyber attacks, theft, and unauthorized access."
+      },
+      {
+        "question": "What are cyber crimes?",
+        "answer": "Cyber crimes are illegal activities involving computers and networks, such as hacking, phishing, and identity theft."
+      },
+      {
+        "question": "Explain phishing.",
+        "answer": "Phishing is a fraudulent attempt to obtain sensitive information by pretending to be a trusted organization."
+      },
+      {
+        "question": "List cyber safety measures.",
+        "answer": "Using strong passwords, installing antivirus software, updating systems regularly, and avoiding suspicious links are important cyber safety measures."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain computer ethics and its importance.",
+        "answer": "Computer ethics refers to moral principles governing the use of computers and technology. It promotes responsible behavior, protects privacy, respects intellectual property, and prevents misuse of digital resources."
+      },
+      {
+        "question": "Explain cyber security and its objectives.",
+        "answer": "Cyber security protects systems, networks, and data from cyber threats. Its objectives include confidentiality, integrity, availability, and protection of digital assets."
+      },
+      {
+        "question": "Describe different types of cyber crimes.",
+        "answer": "Cyber crimes include hacking, phishing, identity theft, cyber bullying, software piracy, malware attacks, and online financial fraud."
+      },
+      {
+        "question": "Explain cyber safety measures.",
+        "answer": "Cyber safety measures include creating strong passwords, using antivirus software, enabling firewalls, updating software regularly, and avoiding suspicious websites and emails."
+      },
+      {
+        "question": "Discuss the responsibilities of digital citizens.",
+        "answer": "Digital citizens should use technology ethically, respect privacy, avoid illegal activities, protect personal information, and follow cyber security practices."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Computer ethics deals with?",
+        "answer": "Moral Principles"
+      },
+      {
+        "question": "Cyber security protects?",
+        "answer": "Systems and Data"
+      },
+      {
+        "question": "Unauthorized access to a computer system is called?",
+        "answer": "Hacking"
+      },
+      {
+        "question": "Fraudulent attempts to steal information are called?",
+        "answer": "Phishing"
+      },
+      {
+        "question": "Illegal activities using computers are known as?",
+        "answer": "Cyber Crimes"
+      },
+      {
+        "question": "Copying software illegally is called?",
+        "answer": "Software Piracy"
+      },
+      {
+        "question": "Which software protects against malware?",
+        "answer": "Antivirus"
+      },
+      {
+        "question": "A strong password improves?",
+        "answer": "Security"
+      },
+      {
+        "question": "Respecting intellectual property is part of?",
+        "answer": "Computer Ethics"
+      },
+      {
+        "question": "Cyber security helps prevent?",
+        "answer": "Unauthorized Access"
+      }
+    ]
+  },
+
+  "tamil-computing": {
+    "summary": [
+      {
+        "heading": "Tamil Computing",
+        "content": "Tamil Computing refers to the use of computers and information technology for processing, storing, displaying, and communicating information in the Tamil language."
+      },
+      {
+        "heading": "Need for Tamil Computing",
+        "content": "Tamil Computing enables people to use computers in their native language and promotes the growth of Tamil in the digital world."
+      },
+      {
+        "heading": "Tamil Fonts",
+        "content": "Tamil fonts are character sets used to display Tamil text on computer systems and digital devices."
+      },
+      {
+        "heading": "Unicode",
+        "content": "Unicode is an international character encoding standard that assigns a unique code to every character, including Tamil characters."
+      },
+      {
+        "heading": "Advantages of Unicode",
+        "content": "Unicode provides a common standard for text representation, ensuring compatibility across different devices, operating systems, and applications."
+      },
+      {
+        "heading": "Tamil Keyboard Layouts",
+        "content": "Tamil keyboard layouts such as Tamil99 and InScript help users type Tamil characters efficiently on computers."
+      },
+      {
+        "heading": "Tamil99 Keyboard",
+        "content": "Tamil99 is a standardized Tamil keyboard layout developed for easy and efficient Tamil typing."
+      },
+      {
+        "heading": "Applications of Tamil Computing",
+        "content": "Tamil Computing is used in education, e-governance, publishing, websites, social media, and mobile applications."
+      },
+      {
+        "heading": "Tamil in the Internet Era",
+        "content": "The Internet has increased the use of Tamil in online communication, digital content creation, and information sharing."
+      },
+      {
+        "heading": "Future of Tamil Computing",
+        "content": "Advancements in artificial intelligence, machine translation, speech recognition, and language processing are expanding the scope of Tamil Computing."
+      }
+    ],
+
+    "twoMark": [
+      {
+        "question": "What is Tamil Computing?",
+        "answer": "Tamil Computing is the use of computers and digital technologies for processing information in the Tamil language."
+      },
+      {
+        "question": "Why is Tamil Computing important?",
+        "answer": "It enables people to use technology in their native language and promotes digital communication in Tamil."
+      },
+      {
+        "question": "What is Unicode?",
+        "answer": "Unicode is a universal character encoding standard used to represent characters of different languages."
+      },
+      {
+        "question": "What is a Tamil font?",
+        "answer": "A Tamil font is a set of characters used to display Tamil text on digital devices."
+      },
+      {
+        "question": "What is Tamil99?",
+        "answer": "Tamil99 is a standardized keyboard layout designed for efficient Tamil typing."
+      },
+      {
+        "question": "What is InScript?",
+        "answer": "InScript is a keyboard layout used for typing Indian languages including Tamil."
+      },
+      {
+        "question": "Name one application of Tamil Computing.",
+        "answer": "Tamil Computing is used in education and e-governance."
+      },
+      {
+        "question": "How does Unicode help Tamil Computing?",
+        "answer": "Unicode ensures Tamil text can be displayed correctly across different platforms."
+      }
+    ],
+
+    "threeMark": [
+      {
+        "question": "Explain Tamil Computing.",
+        "answer": "Tamil Computing involves the use of computers and digital technologies for creating, processing, storing, and communicating information in Tamil."
+      },
+      {
+        "question": "Explain Unicode.",
+        "answer": "Unicode is a global encoding standard that assigns unique codes to characters, ensuring proper display of Tamil text across systems."
+      },
+      {
+        "question": "What are Tamil keyboard layouts?",
+        "answer": "Tamil keyboard layouts such as Tamil99 and InScript help users type Tamil characters efficiently."
+      },
+      {
+        "question": "List the applications of Tamil Computing.",
+        "answer": "Tamil Computing is used in education, publishing, e-governance, websites, social media, and mobile applications."
+      },
+      {
+        "question": "Explain the importance of Tamil Computing.",
+        "answer": "Tamil Computing preserves language identity, promotes digital literacy, and expands access to technology for Tamil-speaking users."
+      }
+    ],
+
+    "fiveMark": [
+      {
+        "question": "Explain Tamil Computing and its significance.",
+        "answer": "Tamil Computing refers to the use of computers and information technology for handling Tamil language content. It helps preserve the language, promotes digital communication, and enables wider access to technology among Tamil-speaking communities."
+      },
+      {
+        "question": "Describe Unicode and its advantages.",
+        "answer": "Unicode is an international character encoding standard that assigns unique codes to characters from all languages. It ensures compatibility, consistency, and accurate representation of Tamil text across platforms."
+      },
+      {
+        "question": "Explain Tamil keyboard layouts.",
+        "answer": "Tamil keyboard layouts such as Tamil99 and InScript provide standardized methods for typing Tamil characters efficiently and accurately on computers."
+      },
+      {
+        "question": "Discuss the applications of Tamil Computing.",
+        "answer": "Tamil Computing is widely used in education, government services, digital publishing, websites, social networking, mobile applications, and communication systems."
+      },
+      {
+        "question": "Explain the future scope of Tamil Computing.",
+        "answer": "The future of Tamil Computing includes advancements in artificial intelligence, machine translation, speech recognition, optical character recognition, and natural language processing technologies."
+      }
+    ],
+
+    "mcq": [
+      {
+        "question": "Tamil Computing deals with?",
+        "answer": "Tamil Language Processing"
+      },
+      {
+        "question": "Which standard is used for character encoding?",
+        "answer": "Unicode"
+      },
+      {
+        "question": "Unicode provides?",
+        "answer": "Unique Character Codes"
+      },
+      {
+        "question": "Which keyboard layout is designed for Tamil typing?",
+        "answer": "Tamil99"
+      },
+      {
+        "question": "Tamil99 is a?",
+        "answer": "Keyboard Layout"
+      },
+      {
+        "question": "Tamil Computing is used in?",
+        "answer": "Education"
+      },
+      {
+        "question": "Unicode supports?",
+        "answer": "Multiple Languages"
+      },
+      {
+        "question": "Tamil fonts are used for?",
+        "answer": "Displaying Tamil Text"
+      },
+      {
+        "question": "Tamil Computing promotes?",
+        "answer": "Digital Communication"
+      },
+      {
+        "question": "AI and NLP contribute to the future of?",
+        "answer": "Tamil Computing"
+      }
+    ]
+  }  
 }
