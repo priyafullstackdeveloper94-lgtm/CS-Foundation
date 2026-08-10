@@ -1,0 +1,722 @@
+{
+  "11": {
+    "introduction-to-computers": {
+      "codingPractice": [
+        {
+          "title": "Print Hello Computer",
+          "description": "Write a C++ program to print Hello Computer.",
+          "sampleInput": "No Input",
+          "sampleOutput": "Hello Computer",
+          "language": "C++"
+        },
+        {
+          "title": "Display Your Name",
+          "description": "Write a program to display your name.",
+          "sampleInput": "Siva",
+          "sampleOutput": "Siva",
+          "language": "C++"
+        },
+        {
+          "title": "Display Computer Science",
+          "description": "Print Computer Science using cout.",
+          "sampleInput": "No Input",
+          "sampleOutput": "Computer Science",
+          "language": "C++"
+        },
+        {
+          "title": "Display Two Lines",
+          "description": "Print Welcome and Learn Programming on separate lines.",
+          "sampleInput": "No Input",
+          "sampleOutput": "Welcome\nLearn Programming",
+          "language": "C++"
+        },
+        {
+          "title": "Display College Name",
+          "description": "Print your college or school name.",
+          "sampleInput": "ABC School",
+          "sampleOutput": "ABC School",
+          "language": "C++"
+        }
+      ]
+    },
+
+    "number-systems": {
+      "codingPractice": [
+        {
+          "title": "Decimal to Binary",
+          "description": "Convert a decimal number to binary.",
+          "sampleInput": "10",
+          "sampleOutput": "1010",
+          "language": "C++"
+        },
+        {
+          "title": "Binary to Decimal",
+          "description": "Convert a binary number to decimal.",
+          "sampleInput": "1010",
+          "sampleOutput": "10",
+          "language": "C++"
+        },
+        {
+          "title": "Check Even or Odd",
+          "description": "Determine whether a number is even or odd.",
+          "sampleInput": "15",
+          "sampleOutput": "Odd",
+          "language": "C++"
+        },
+        {
+          "title": "Find Remainder",
+          "description": "Find the remainder when two numbers are divided.",
+          "sampleInput": "17 5",
+          "sampleOutput": "2",
+          "language": "C++"
+        },
+        {
+          "title": "Display Hexadecimal Value",
+          "description": "Convert a decimal number to hexadecimal.",
+          "sampleInput": "255",
+          "sampleOutput": "FF",
+          "language": "C++"
+        }
+      ]
+    },
+
+    "computer-organization": {
+      "codingPractice": [
+        {
+          "title": "Add Two Numbers",
+          "description": "Read two numbers and display their sum.",
+          "sampleInput": "10 20",
+          "sampleOutput": "30",
+          "language": "C++"
+        },
+        {
+          "title": "Subtract Two Numbers",
+          "description": "Read two numbers and display the difference.",
+          "sampleInput": "30 10",
+          "sampleOutput": "20",
+          "language": "C++"
+        },
+        {
+          "title": "Multiply Two Numbers",
+          "description": "Read two numbers and display the product.",
+          "sampleInput": "5 4",
+          "sampleOutput": "20",
+          "language": "C++"
+        },
+        {
+          "title": "Divide Two Numbers",
+          "description": "Read two numbers and display the quotient.",
+          "sampleInput": "20 5",
+          "sampleOutput": "4",
+          "language": "C++"
+        },
+        {
+          "title": "Find Average",
+          "description": "Calculate the average of three numbers.",
+          "sampleInput": "10 20 30",
+          "sampleOutput": "20",
+          "language": "C++"
+        }
+      ]
+    },
+
+    "operating-system": {
+      "codingPractice": [
+        {
+          "title": "Display OS Name",
+          "description": "Print the name of an operating system.",
+          "sampleInput": "Windows",
+          "sampleOutput": "Windows",
+          "language": "C++"
+        },
+        {
+          "title": "Simple Menu Program",
+          "description": "Display a menu with three options.",
+          "sampleInput": "No Input",
+          "sampleOutput": "1.Start 2.Settings 3.Exit",
+          "language": "C++"
+        },
+        {
+          "title": "User Login Simulation",
+          "description": "Check whether the entered password matches a predefined password.",
+          "sampleInput": "admin123",
+          "sampleOutput": "Login Successful",
+          "language": "C++"
+        },
+        {
+          "title": "Count Processes",
+          "description": "Input the number of running processes and display it.",
+          "sampleInput": "25",
+          "sampleOutput": "25",
+          "language": "C++"
+        },
+        {
+          "title": "Display File Name",
+          "description": "Read and display a file name.",
+          "sampleInput": "notes.txt",
+          "sampleOutput": "notes.txt",
+          "language": "C++"
+        }
+      ]
+    },
+
+    "windows-operating-system": {
+      "codingPractice": [
+        {
+          "title": "Display Desktop Message",
+          "description": "Print Welcome to Windows.",
+          "sampleInput": "No Input",
+          "sampleOutput": "Welcome to Windows",
+          "language": "C++"
+        },
+        {
+          "title": "Folder Name Display",
+          "description": "Read and display a folder name.",
+          "sampleInput": "Documents",
+          "sampleOutput": "Documents",
+          "language": "C++"
+        },
+        {
+          "title": "File Extension Finder",
+          "description": "Display the extension of a file name.",
+          "sampleInput": "report.pdf",
+          "sampleOutput": "pdf",
+          "language": "C++"
+        },
+        {
+          "title": "Count Characters",
+          "description": "Count the number of characters in a file name.",
+          "sampleInput": "document",
+          "sampleOutput": "8",
+          "language": "C++"
+        },
+        {
+          "title": "Simple Calculator",
+          "description": "Create a calculator for addition, subtraction, multiplication, and division.",
+          "sampleInput": "10 + 20",
+          "sampleOutput": "30",
+          "language": "C++"
+        }
+      ]
+    },
+    "specification-and-abstraction": {
+    "codingPractice": [
+      {
+        "title": "Calculate Area of Rectangle",
+        "description": "Write a program to calculate the area of a rectangle using length and breadth.",
+        "sampleInput": "10 5",
+        "sampleOutput": "50",
+        "language": "C++"
+      },
+      {
+        "title": "Calculate Perimeter",
+        "description": "Find the perimeter of a rectangle.",
+        "sampleInput": "10 5",
+        "sampleOutput": "30",
+        "language": "C++"
+      },
+      {
+        "title": "Swap Two Numbers",
+        "description": "Write a program to swap two numbers.",
+        "sampleInput": "10 20",
+        "sampleOutput": "20 10",
+        "language": "C++"
+      },
+      {
+        "title": "Simple Interest",
+        "description": "Calculate simple interest using P, R and T.",
+        "sampleInput": "1000 5 2",
+        "sampleOutput": "100",
+        "language": "C++"
+      },
+      {
+        "title": "Temperature Conversion",
+        "description": "Convert Celsius to Fahrenheit.",
+        "sampleInput": "0",
+        "sampleOutput": "32",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "composition-and-decomposition": {
+    "codingPractice": [
+      {
+        "title": "Sum of Two Functions",
+        "description": "Create separate functions for addition and display the result.",
+        "sampleInput": "5 10",
+        "sampleOutput": "15",
+        "language": "C++"
+      },
+      {
+        "title": "Find Square",
+        "description": "Create a function to return the square of a number.",
+        "sampleInput": "6",
+        "sampleOutput": "36",
+        "language": "C++"
+      },
+      {
+        "title": "Find Cube",
+        "description": "Create a function to return the cube of a number.",
+        "sampleInput": "3",
+        "sampleOutput": "27",
+        "language": "C++"
+      },
+      {
+        "title": "Maximum of Two Numbers",
+        "description": "Use a function to find the larger number.",
+        "sampleInput": "15 20",
+        "sampleOutput": "20",
+        "language": "C++"
+      },
+      {
+        "title": "Minimum of Two Numbers",
+        "description": "Use a function to find the smaller number.",
+        "sampleInput": "15 20",
+        "sampleOutput": "15",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "iteration-and-recursion": {
+    "codingPractice": [
+      {
+        "title": "Print Numbers 1 to 10",
+        "description": "Use a loop to print numbers from 1 to 10.",
+        "sampleInput": "No Input",
+        "sampleOutput": "1 2 3 4 5 6 7 8 9 10",
+        "language": "C++"
+      },
+      {
+        "title": "Factorial Using Loop",
+        "description": "Find factorial of a number using iteration.",
+        "sampleInput": "5",
+        "sampleOutput": "120",
+        "language": "C++"
+      },
+      {
+        "title": "Factorial Using Recursion",
+        "description": "Find factorial of a number using recursion.",
+        "sampleInput": "5",
+        "sampleOutput": "120",
+        "language": "C++"
+      },
+      {
+        "title": "Sum of Natural Numbers",
+        "description": "Find sum from 1 to N.",
+        "sampleInput": "5",
+        "sampleOutput": "15",
+        "language": "C++"
+      },
+      {
+        "title": "Reverse Counting",
+        "description": "Print numbers from 10 to 1.",
+        "sampleInput": "No Input",
+        "sampleOutput": "10 9 8 7 6 5 4 3 2 1",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "introduction-to-cpp": {
+    "codingPractice": [
+      {
+        "title": "Hello World",
+        "description": "Write a C++ program to print Hello World.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Hello World",
+        "language": "C++"
+      },
+      {
+        "title": "Input and Display Number",
+        "description": "Read a number and display it.",
+        "sampleInput": "25",
+        "sampleOutput": "25",
+        "language": "C++"
+      },
+      {
+        "title": "Add Two Integers",
+        "description": "Read two integers and display their sum.",
+        "sampleInput": "10 15",
+        "sampleOutput": "25",
+        "language": "C++"
+      },
+      {
+        "title": "Find Product",
+        "description": "Multiply two numbers.",
+        "sampleInput": "4 5",
+        "sampleOutput": "20",
+        "language": "C++"
+      },
+      {
+        "title": "Display Personal Information",
+        "description": "Print your name and age.",
+        "sampleInput": "Siva 25",
+        "sampleOutput": "Siva 25",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "flow-of-control": {
+    "codingPractice": [
+      {
+        "title": "Check Positive or Negative",
+        "description": "Determine whether a number is positive or negative.",
+        "sampleInput": "-5",
+        "sampleOutput": "Negative",
+        "language": "C++"
+      },
+      {
+        "title": "Check Even or Odd",
+        "description": "Determine whether a number is even or odd.",
+        "sampleInput": "12",
+        "sampleOutput": "Even",
+        "language": "C++"
+      },
+      {
+        "title": "Largest of Two Numbers",
+        "description": "Find the larger of two numbers using if statement.",
+        "sampleInput": "20 15",
+        "sampleOutput": "20",
+        "language": "C++"
+      },
+      {
+        "title": "Grade Calculator",
+        "description": "Display grade based on marks.",
+        "sampleInput": "85",
+        "sampleOutput": "A",
+        "language": "C++"
+      },
+      {
+        "title": "Simple Menu Selection",
+        "description": "Use switch statement to display a selected option.",
+        "sampleInput": "2",
+        "sampleOutput": "Settings",
+        "language": "C++"
+      }
+    ]
+  },
+  "functions": {
+    "codingPractice": [
+      {
+        "title": "Display Welcome Function",
+        "description": "Create a function that prints Welcome to C++.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Welcome to C++",
+        "language": "C++"
+      },
+      {
+        "title": "Add Two Numbers Using Function",
+        "description": "Create a function that returns the sum of two numbers.",
+        "sampleInput": "10 20",
+        "sampleOutput": "30",
+        "language": "C++"
+      },
+      {
+        "title": "Find Square Using Function",
+        "description": "Create a function that returns the square of a number.",
+        "sampleInput": "6",
+        "sampleOutput": "36",
+        "language": "C++"
+      },
+      {
+        "title": "Find Maximum Using Function",
+        "description": "Create a function to find the largest of two numbers.",
+        "sampleInput": "25 40",
+        "sampleOutput": "40",
+        "language": "C++"
+      },
+      {
+        "title": "Check Even or Odd Using Function",
+        "description": "Create a function that determines whether a number is even or odd.",
+        "sampleInput": "12",
+        "sampleOutput": "Even",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "oops-techniques": {
+    "codingPractice": [
+      {
+        "title": "Student Class",
+        "description": "Create a class named Student with name and age members.",
+        "sampleInput": "Siva 20",
+        "sampleOutput": "Siva 20",
+        "language": "C++"
+      },
+      {
+        "title": "Employee Class",
+        "description": "Create a class named Employee and display employee details.",
+        "sampleInput": "101 Arun",
+        "sampleOutput": "101 Arun",
+        "language": "C++"
+      },
+      {
+        "title": "Car Class",
+        "description": "Create a class Car with brand and model.",
+        "sampleInput": "Toyota Innova",
+        "sampleOutput": "Toyota Innova",
+        "language": "C++"
+      },
+      {
+        "title": "Book Class",
+        "description": "Create a class Book and display book title.",
+        "sampleInput": "Python Basics",
+        "sampleOutput": "Python Basics",
+        "language": "C++"
+      },
+      {
+        "title": "Simple Object Creation",
+        "description": "Create an object and access class members.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Object Created",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "arrays-and-structures": {
+    "codingPractice": [
+      {
+        "title": "Display Array Elements",
+        "description": "Store 5 numbers in an array and display them.",
+        "sampleInput": "1 2 3 4 5",
+        "sampleOutput": "1 2 3 4 5",
+        "language": "C++"
+      },
+      {
+        "title": "Find Array Sum",
+        "description": "Calculate the sum of array elements.",
+        "sampleInput": "1 2 3 4 5",
+        "sampleOutput": "15",
+        "language": "C++"
+      },
+      {
+        "title": "Find Largest Element",
+        "description": "Find the largest value in an array.",
+        "sampleInput": "10 50 30 20 40",
+        "sampleOutput": "50",
+        "language": "C++"
+      },
+      {
+        "title": "Student Structure",
+        "description": "Create a structure to store student details.",
+        "sampleInput": "101 Siva",
+        "sampleOutput": "101 Siva",
+        "language": "C++"
+      },
+      {
+        "title": "Average of Array Elements",
+        "description": "Calculate the average of array elements.",
+        "sampleInput": "10 20 30 40 50",
+        "sampleOutput": "30",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "classes-and-objects": {
+    "codingPractice": [
+      {
+        "title": "Create Student Object",
+        "description": "Create a Student class and display details using an object.",
+        "sampleInput": "Siva 20",
+        "sampleOutput": "Siva 20",
+        "language": "C++"
+      },
+      {
+        "title": "Bank Account Class",
+        "description": "Create a BankAccount class with account number and balance.",
+        "sampleInput": "12345 5000",
+        "sampleOutput": "12345 5000",
+        "language": "C++"
+      },
+      {
+        "title": "Rectangle Class",
+        "description": "Create a Rectangle class and calculate area.",
+        "sampleInput": "10 5",
+        "sampleOutput": "50",
+        "language": "C++"
+      },
+      {
+        "title": "Employee Object",
+        "description": "Create an Employee object and display information.",
+        "sampleInput": "101 Arun",
+        "sampleOutput": "101 Arun",
+        "language": "C++"
+      },
+      {
+        "title": "Product Class",
+        "description": "Create a Product class and display product details.",
+        "sampleInput": "P101 Laptop",
+        "sampleOutput": "P101 Laptop",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "polymorphism": {
+    "codingPractice": [
+      {
+        "title": "Function Overloading Addition",
+        "description": "Create overloaded functions for integer and float addition.",
+        "sampleInput": "10 20",
+        "sampleOutput": "30",
+        "language": "C++"
+      },
+      {
+        "title": "Area Function Overloading",
+        "description": "Overload area() for square and rectangle.",
+        "sampleInput": "5",
+        "sampleOutput": "25",
+        "language": "C++"
+      },
+      {
+        "title": "Print Function Overloading",
+        "description": "Overload print() for integer and string.",
+        "sampleInput": "100",
+        "sampleOutput": "100",
+        "language": "C++"
+      },
+      {
+        "title": "Volume Calculation",
+        "description": "Use function overloading to calculate volume.",
+        "sampleInput": "5 4 3",
+        "sampleOutput": "60",
+        "language": "C++"
+      },
+      {
+        "title": "Simple Runtime Polymorphism",
+        "description": "Demonstrate method overriding using base and derived classes.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Derived Class Method",
+        "language": "C++"
+      }
+    ]
+  },
+
+"inheritance": {
+    "codingPractice": [
+      {
+        "title": "Single Inheritance Example",
+        "description": "Create a base class Person and derived class Student. Display student details.",
+        "sampleInput": "Siva 20",
+        "sampleOutput": "Siva 20",
+        "language": "C++"
+      },
+      {
+        "title": "Employee Inheritance",
+        "description": "Create a base class Employee and derived class Manager.",
+        "sampleInput": "101 Arun",
+        "sampleOutput": "101 Arun",
+        "language": "C++"
+      },
+      {
+        "title": "Vehicle Inheritance",
+        "description": "Create a Vehicle class and derive a Car class from it.",
+        "sampleInput": "Toyota",
+        "sampleOutput": "Toyota",
+        "language": "C++"
+      },
+      {
+        "title": "Calculate Salary",
+        "description": "Use inheritance to display employee salary details.",
+        "sampleInput": "25000",
+        "sampleOutput": "25000",
+        "language": "C++"
+      },
+      {
+        "title": "Multilevel Inheritance",
+        "description": "Create a multilevel inheritance example with three classes.",
+        "sampleInput": "No Input",
+        "sampleOutput": "Multilevel Inheritance Successful",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "computer-ethics-and-cyber-security": {
+    "codingPractice": [
+      {
+        "title": "Password Length Checker",
+        "description": "Check whether a password contains at least 8 characters.",
+        "sampleInput": "computer123",
+        "sampleOutput": "Valid Password",
+        "language": "C++"
+      },
+      {
+        "title": "Username Validation",
+        "description": "Read a username and display it after validation.",
+        "sampleInput": "student01",
+        "sampleOutput": "student01",
+        "language": "C++"
+      },
+      {
+        "title": "Count Password Characters",
+        "description": "Find the length of a password string.",
+        "sampleInput": "secure123",
+        "sampleOutput": "9",
+        "language": "C++"
+      },
+      {
+        "title": "Email Format Check",
+        "description": "Check whether an email contains '@' symbol.",
+        "sampleInput": "student@gmail.com",
+        "sampleOutput": "Valid Email",
+        "language": "C++"
+      },
+      {
+        "title": "Simple Login System",
+        "description": "Compare entered username and password with predefined values.",
+        "sampleInput": "admin admin123",
+        "sampleOutput": "Login Successful",
+        "language": "C++"
+      }
+    ]
+  },
+
+  "tamil-computing": {
+    "codingPractice": [
+      {
+        "title": "Display Tamil Text",
+        "description": "Print a Tamil word using C++.",
+        "sampleInput": "வணக்கம்",
+        "sampleOutput": "வணக்கம்",
+        "language": "C++"
+      },
+      {
+        "title": "Display Tamil Sentence",
+        "description": "Print a Tamil sentence on the screen.",
+        "sampleInput": "தமிழ் கணினி",
+        "sampleOutput": "தமிழ் கணினி",
+        "language": "C++"
+      },
+      {
+        "title": "Count Tamil Characters",
+        "description": "Read a Tamil word and display its character count.",
+        "sampleInput": "தமிழ்",
+        "sampleOutput": "5",
+        "language": "C++"
+      },
+      {
+        "title": "Display Unicode Text",
+        "description": "Print Unicode Tamil text using a program.",
+        "sampleInput": "கணினி",
+        "sampleOutput": "கணினி",
+        "language": "C++"
+      },
+      {
+        "title": "Tamil Greeting Program",
+        "description": "Display a Tamil greeting message.",
+        "sampleInput": "No Input",
+        "sampleOutput": "வணக்கம் உலகம்",
+        "language": "C++"
+      }
+    ]
+  }
+    
+  }
+}
