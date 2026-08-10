@@ -53,7 +53,7 @@ chapterKey.textContent =
 
 // Fetch Coding JSON
 
-fetch("coding.json")
+fetch("json/coding.json")
     .then(response => response.json())
     .then(data => {
 
