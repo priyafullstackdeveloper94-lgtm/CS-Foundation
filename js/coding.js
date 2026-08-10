@@ -14,6 +14,9 @@ const params =
 const chapterId =
     params.get("chapter");
 
+const studentClass =
+params.get("class");
+
 
 // Check chapter
 
@@ -51,51 +54,45 @@ chapterKey.textContent =
 // Fetch Coding JSON
 
 fetch("coding.json")
-
     .then(response => response.json())
-
     .then(data => {
 
-
-        if (data[chapterId] &&
-            data[chapterId].codingPractice.length > 0) {
-
+        if (
+            data[studentClass] &&
+            data[studentClass][chapterId] &&
+            data[studentClass][chapterId].codingPractice.length > 0
+        ) {
 
             let questions =
-                data[chapterId].codingPractice;
+                data[studentClass][chapterId]
+                .codingPractice;
 
-
-            displayCodingQuestions(questions);
-
+            displayCodingQuestions(
+                questions
+            );
 
         } else {
 
-
             codingQuestions.innerHTML =
                 `
-        <div class="no-content">
-            <h3>No Coding Questions Available</h3>
-            <p>This chapter does not have coding practice yet.</p>
-        </div>
-        `;
-
+                <div class="no-content">
+                    <h3>No Coding Questions Available</h3>
+                    <p>This chapter does not have coding practice yet.</p>
+                </div>
+                `;
 
         }
-
 
     })
 
     .catch(error => {
-
 
         console.log(
             "Coding JSON Loading Error:",
             error
         );
 
-
     });
-
 
 
 
