@@ -7,8 +7,8 @@ const studentClass = params.get("class");
 
 const jsonFile =
     studentClass === "11" ?
-    "eleventh.json" :
-    "twelth.json";
+    "json/eleventh.json" :
+    "json/twelth.json";
 
 const chapterId = params.get("chapter");
 const type = params.get("type");
