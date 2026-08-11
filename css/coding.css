@@ -197,279 +197,239 @@
     }
 }
 
-/* coding content css */
 
-/* Coding Practice Section */
 
+
+/*  coding code */
+
+/* =========================
+   Coding Practice Section
+========================= */
 
 .coding-section {
-
-    background:
-        linear-gradient(135deg, #0f172a, #1e3a8a);
-
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
     padding: 40px 20px;
-
     min-height: 80vh;
-
 }
-
-
-
 
 .coding-container {
-
     max-width: 900px;
-
     margin: auto;
-
 }
 
 
+/* =========================
+   Chapter Header
+========================= */
 
-
-.coding-title {
-
-    text-align: center;
-
-    color: white;
-
-    margin-bottom: 30px;
-
-}
-
-
-
-.coding-title h1 {
-
-    font-size: 32px;
-
-    margin-bottom: 10px;
-
-}
-
-
-
-.coding-title p {
-
-    color: #bfdbfe;
-
-    font-size: 18px;
-
-}
-
-
-
-
-
-
-/* Problem Card */
-
-
-.problem-card,
-.editor-card,
-.output-card {
-
-    background: white;
-
-    padding: 30px;
-
-    border-radius: 16px;
-
+.chapter-header {
+    background: linear-gradient(135deg, #ff3a3b, #ff3bb3);
+    padding: 20px;
+    border-radius: 12px;
     margin-bottom: 25px;
+}
 
-    box-shadow:
-        0 10px 25px rgba(0, 0, 0, 0.15);
+.summary-heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
 
+.summary-para {
+    font-size: 17px;
+    color: #f8fafc;
+    margin: 0;
 }
 
 
+/* =========================
+   Coding Question Card
+========================= */
 
+.coding-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
 
-.problem-card h2,
-.editor-card h2,
-.output-card h2 {
-
+.coding-card h2 {
     color: #0f172a;
-
     margin-top: 0;
-
+    margin-bottom: 15px;
+    font-size: 24px;
 }
 
-
-
-.problem-card p {
-
+.problem-description {
     color: #475569;
-
     line-height: 1.7;
-
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 
+/* =========================
+   Sample Input / Output
+========================= */
 
-
-
-
-/* Example Box */
-
-
-.example-box {
-
+.sample-box {
     background: #f8fafc;
-
     padding: 20px;
-
     border-radius: 10px;
-
+    margin-bottom: 20px;
 }
 
+.sample-box h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
 
-
-.example-box pre {
-
+.sample-box pre {
     background: #0f172a;
-
-    color: white;
-
+    color: #ffffff;
     padding: 15px;
-
     border-radius: 8px;
-
-    overflow: auto;
-
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 
+/* =========================
+   Editor Heading
+========================= */
+
+.coding-card h3 {
+    color: #0f172a;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
 
 
+/* =========================
+   Code Editor
+========================= */
 
-
-
-/* Code Editor */
-
-
-#codeEditor {
-
+.code-editor {
     width: 100%;
-
     height: 300px;
-
     resize: vertical;
-
     padding: 20px;
-
-    font-family:
-        "Courier New", monospace;
-
+    font-family: "Courier New", monospace;
     font-size: 16px;
-
     border: 2px solid #e2e8f0;
-
     border-radius: 10px;
-
     outline: none;
-
+    box-sizing: border-box;
 }
 
-
-
-#codeEditor:focus {
-
+.code-editor:focus {
     border-color: #2563eb;
-
 }
 
 
+/* =========================
+   Run Button
+========================= */
 
-
-
-
-
-/* Run Button */
-
-
-#runButton {
-
+.run-button {
     margin-top: 20px;
-
     background: #2563eb;
-
-    color: white;
-
+    color: #ffffff;
     border: none;
-
     padding: 12px 25px;
-
     border-radius: 10px;
-
     font-size: 16px;
-
     cursor: pointer;
-
+    transition: background 0.3s ease;
 }
 
-
-
-#runButton:hover {
-
+.run-button:hover {
     background: #1d4ed8;
-
 }
 
 
+/* =========================
+   Output Section
+========================= */
 
+.output-box {
+    margin-top: 20px;
+}
 
+.output-box h4 {
+    color: #0f172a;
+    margin-bottom: 10px;
+}
 
-
-
-/* Output */
-
-
-#output {
-
+.output {
     background: #020617;
-
     color: #22c55e;
-
     min-height: 120px;
-
     padding: 20px;
-
     border-radius: 10px;
-
-    font-family:
-        "Courier New", monospace;
-
+    font-family: "Courier New", monospace;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 
+/* =========================
+   No Content Message
+========================= */
+
+.no-content {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.no-content h3 {
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.no-content p {
+    color: #64748b;
+}
 
 
+/* =========================
+   Mobile Responsive
+========================= */
 
+@media (max-width: 768px) {
 
-@media(max-width:768px) {
-
-
-    .problem-card,
-    .editor-card,
-    .output-card {
-
+    .coding-card {
         padding: 20px;
-
     }
 
-
-
-    .coding-title h1 {
-
-        font-size: 25px;
-
+    .summary-heading {
+        font-size: 22px;
     }
 
+    .summary-para {
+        font-size: 16px;
+    }
 
+    .coding-card h2 {
+        font-size: 20px;
+    }
 
+    .code-editor {
+        height: 220px;
+        font-size: 14px;
+    }
+
+    .run-button {
+        width: 100%;
+    }
 }
-
 
 
 
