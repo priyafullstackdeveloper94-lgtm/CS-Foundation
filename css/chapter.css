@@ -185,13 +185,13 @@ body {
 
 
 .chaptermainbackground {
-    background: #F8FAFC;
+    background: #4F46E5;
     min-height: 100vh;
-    padding: 20px 30px;
+    padding: 40px 60px;
 }
 
 .chapter-header {
-    background: linear-gradient(135deg, #2563EB, #4F46E5);
+    background: linear-gradient(135deg, #003a3b, #000000);
     color: white;
     padding: 20px;
     border-radius: 12px;
@@ -201,8 +201,11 @@ body {
     background-color: #ffffff;
     font-family: "Open Sans", sans-serif;
     padding: 24px;
-    border-radius: 12px;
+    border-radius: 20px;
     line-height: 1.7;
+    min-height: 100vh;
+    justify-content: center;
+    margin: 35px 20px;
 }
 
 .summary-heading {
