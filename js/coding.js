@@ -1,24 +1,26 @@
-const chapterHeading = document.getElementById("chapterHeading");
-const chapterKey = document.getElementById("chapterKey");
+const chapterHeading =
+    document.getElementById("chapterHeading");
+
+const chapterKey =
+    document.getElementById("chapterKey");
 
 const codingQuestions =
     document.getElementById("codingQuestions");
 
 
-// Get URL Parameters
+// URL Parameters
 
 const params =
     new URLSearchParams(window.location.search);
-
 
 const chapterId =
     params.get("chapter");
 
 const studentClass =
-params.get("class");
+    params.get("class");
 
 
-// Check chapter
+// Check Chapter
 
 if (!chapterId) {
 
@@ -26,35 +28,33 @@ if (!chapterId) {
         "<h2>Chapter not selected</h2>";
 
     throw new Error("Chapter missing");
-
 }
 
 
-// Convert chapter id into title
+// Convert Slug to Title
 
 const formattedTitle =
     chapterId
-    .split("-")
-    .map(word =>
-        word.charAt(0).toUpperCase() + word.slice(1)
-    )
-    .join(" ");
-
-
+        .split("-")
+        .map(word =>
+            word.charAt(0).toUpperCase() +
+            word.slice(1)
+        )
+        .join(" ");
 
 chapterHeading.textContent =
     formattedTitle;
-
 
 chapterKey.textContent =
     "Coding Practice";
 
 
-
-// Fetch Coding JSON
+// Fetch JSON
 
 fetch("json/coding.json")
+
     .then(response => response.json())
+
     .then(data => {
 
         if (
@@ -63,24 +63,19 @@ fetch("json/coding.json")
             data[studentClass][chapterId].codingPractice.length > 0
         ) {
 
-            let questions =
-                data[studentClass][chapterId]
-                .codingPractice;
-
             displayCodingQuestions(
-                questions
+                data[studentClass][chapterId]
+                .codingPractice
             );
 
         } else {
 
-            codingQuestions.innerHTML =
-                `
+            codingQuestions.innerHTML = `
                 <div class="no-content">
                     <h3>No Coding Questions Available</h3>
                     <p>This chapter does not have coding practice yet.</p>
                 </div>
-                `;
-
+            `;
         }
 
     })
@@ -95,104 +90,72 @@ fetch("json/coding.json")
     });
 
 
-
-// Create Coding Cards
+// Display Questions
 
 function displayCodingQuestions(questions) {
 
-
     codingQuestions.innerHTML = "";
-
 
     questions.forEach((problem, index) => {
 
-
-        let codingCard =
+        const codingCard =
             document.createElement("div");
-
 
         codingCard.classList.add(
             "coding-card"
         );
 
-
         codingCard.innerHTML = `
 
+            <h2>
+                Problem ${index + 1} :
+                ${problem.title}
+            </h2>
 
-        <h2>
-            Problem ${index + 1}: 
-            ${problem.title}
-        </h2>
+            <p class="problem-description">
+                ${problem.description}
+            </p>
 
+            <div class="sample-box">
 
-        <p class="problem-description">
-            ${problem.description}
-        </p>
+                <h4>Sample Input</h4>
 
+                <pre>${problem.sampleInput}</pre>
 
-        <div class="sample-box">
+            </div>
 
-            <h4>Sample Input</h4>
+            <div class="sample-box">
 
-            <pre>
-${problem.sampleInput}
-            </pre>
+                <h4>Expected Output</h4>
 
-        </div>
+                <pre>${problem.sampleOutput}</pre>
 
+            </div>
 
+            <h3>Write Your Code</h3>
 
-        <div class="sample-box">
+            <textarea
+                class="code-editor"
+                placeholder="Write your code here...">
+            </textarea>
 
-            <h4>Expected Output</h4>
+            <button
+                class="run-button">
+                Run Code
+            </button>
 
-            <pre>
-${problem.sampleOutput}
-            </pre>
+            <div class="output-box">
 
-        </div>
+                <h4>Output</h4>
 
+                <pre class="output"></pre>
 
-
-        <h3>
-            Write Your Code
-        </h3>
-
-
-        <textarea 
-        class="code-editor"
-        placeholder="Write your ${problem.language} code here...">
-        </textarea>
-
-
-        <button 
-        class="run-button">
-            Run Code
-        </button>
-
-
-        <div class="output-box">
-
-            <h4>
-                Output
-            </h4>
-
-            <pre class="output">
-                
-            </pre>
-
-        </div>
-
+            </div>
 
         `;
-
 
         codingQuestions.appendChild(
             codingCard
         );
-
-
     });
-
-
 }
